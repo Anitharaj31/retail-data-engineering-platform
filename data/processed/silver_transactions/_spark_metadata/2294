@@ -1,0 +1,3 @@
+v1
+{"path":"file:///Users/anitharaj/retail-data-engineering-platform/data/processed/silver_transactions/part-00000-4671372b-3965-4eff-a8bb-e8292e919ff3-c000.snappy.parquet","size":3467,"isDir":false,"modificationTime":1783973642702,"blockReplication":1,"blockSize":33554432,"action":"add"}
+{"path":"file:///Users/anitharaj/retail-data-engineering-platform/data/processed/silver_transactions/part-00001-91d4e652-8f0d-4791-9d35-01b7fd9fdba6-c000.snappy.parquet","size":3496,"isDir":false,"modificationTime":1783973642717,"blockReplication":1,"blockSize":33554432,"action":"add"}

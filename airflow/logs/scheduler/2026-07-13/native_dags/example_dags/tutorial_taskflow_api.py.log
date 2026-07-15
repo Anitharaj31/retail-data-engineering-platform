@@ -1,0 +1,15 @@
+[2026-07-13T16:10:52.358-0400] {processor.py:186} INFO - Started process (PID=58814) to work on /Users/anitharaj/retail-data-engineering-platform/venv/lib/python3.9/site-packages/airflow/example_dags/tutorial_taskflow_api.py
+[2026-07-13T16:10:52.360-0400] {processor.py:914} INFO - Processing file /Users/anitharaj/retail-data-engineering-platform/venv/lib/python3.9/site-packages/airflow/example_dags/tutorial_taskflow_api.py for tasks to queue
+[2026-07-13T16:10:52.361-0400] {logging_mixin.py:190} INFO - [2026-07-13T16:10:52.361-0400] {dagbag.py:588} INFO - Filling up the DagBag from /Users/anitharaj/retail-data-engineering-platform/venv/lib/python3.9/site-packages/airflow/example_dags/tutorial_taskflow_api.py
+[2026-07-13T16:10:52.385-0400] {processor.py:925} INFO - DAG(s) 'tutorial_taskflow_api' retrieved from /Users/anitharaj/retail-data-engineering-platform/venv/lib/python3.9/site-packages/airflow/example_dags/tutorial_taskflow_api.py
+[2026-07-13T16:10:52.497-0400] {logging_mixin.py:190} INFO - [2026-07-13T16:10:52.496-0400] {override.py:1911} INFO - Created Permission View: can delete on DAG:tutorial_taskflow_api
+[2026-07-13T16:10:52.501-0400] {logging_mixin.py:190} INFO - [2026-07-13T16:10:52.501-0400] {override.py:1911} INFO - Created Permission View: can edit on DAG:tutorial_taskflow_api
+[2026-07-13T16:10:52.504-0400] {logging_mixin.py:190} INFO - [2026-07-13T16:10:52.504-0400] {override.py:1911} INFO - Created Permission View: can read on DAG:tutorial_taskflow_api
+[2026-07-13T16:10:52.508-0400] {logging_mixin.py:190} INFO - [2026-07-13T16:10:52.508-0400] {override.py:1911} INFO - Created Permission View: can create on DAG Run:tutorial_taskflow_api
+[2026-07-13T16:10:52.511-0400] {logging_mixin.py:190} INFO - [2026-07-13T16:10:52.510-0400] {override.py:1911} INFO - Created Permission View: menu access on DAG Run:tutorial_taskflow_api
+[2026-07-13T16:10:52.513-0400] {logging_mixin.py:190} INFO - [2026-07-13T16:10:52.513-0400] {override.py:1911} INFO - Created Permission View: can delete on DAG Run:tutorial_taskflow_api
+[2026-07-13T16:10:52.516-0400] {logging_mixin.py:190} INFO - [2026-07-13T16:10:52.516-0400] {override.py:1911} INFO - Created Permission View: can read on DAG Run:tutorial_taskflow_api
+[2026-07-13T16:10:52.516-0400] {logging_mixin.py:190} INFO - [2026-07-13T16:10:52.516-0400] {dag.py:3239} INFO - Sync 1 DAGs
+[2026-07-13T16:10:52.523-0400] {logging_mixin.py:190} INFO - [2026-07-13T16:10:52.523-0400] {dag.py:3262} INFO - Creating ORM DAG for tutorial_taskflow_api
+[2026-07-13T16:10:52.523-0400] {logging_mixin.py:190} INFO - [2026-07-13T16:10:52.523-0400] {dag.py:4180} INFO - Setting next_dagrun for tutorial_taskflow_api to None, run_after=None
+[2026-07-13T16:10:52.531-0400] {processor.py:208} INFO - Processing /Users/anitharaj/retail-data-engineering-platform/venv/lib/python3.9/site-packages/airflow/example_dags/tutorial_taskflow_api.py took 0.176 seconds

@@ -1,0 +1,6 @@
+transaction_id,customer_id,product_id,category,quantity,price,timestamp
+1001,C001,P101,Electronics,2,500,2026-07-01 10:30:00
+1002,C002,P102,Clothing,3,80,2026-07-01 10:35:00
+1003,C003,P103,Food,5,20,2026-07-01 10:40:00
+1004,C004,P101,Electronics,1,700,2026-07-01 10:45:00
+1005,C005,P104,Furniture,2,300,2026-07-01 10:50:00

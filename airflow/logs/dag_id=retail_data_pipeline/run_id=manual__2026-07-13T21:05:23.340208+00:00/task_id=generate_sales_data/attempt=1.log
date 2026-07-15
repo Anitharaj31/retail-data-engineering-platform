@@ -1,0 +1,21 @@
+[2026-07-13T17:05:25.996-0400] {local_task_job_runner.py:123} INFO - ::group::Pre task execution logs
+[2026-07-13T17:05:26.002-0400] {taskinstance.py:2613} INFO - Dependencies all met for dep_context=non-requeueable deps ti=<TaskInstance: retail_data_pipeline.generate_sales_data manual__2026-07-13T21:05:23.340208+00:00 [queued]>
+[2026-07-13T17:05:26.005-0400] {taskinstance.py:2613} INFO - Dependencies all met for dep_context=requeueable deps ti=<TaskInstance: retail_data_pipeline.generate_sales_data manual__2026-07-13T21:05:23.340208+00:00 [queued]>
+[2026-07-13T17:05:26.005-0400] {taskinstance.py:2866} INFO - Starting attempt 1 of 1
+[2026-07-13T17:05:26.011-0400] {taskinstance.py:2889} INFO - Executing <Task(BashOperator): generate_sales_data> on 2026-07-13 21:05:23.340208+00:00
+[2026-07-13T17:05:26.015-0400] {standard_task_runner.py:72} INFO - Started process 83740 to run task
+[2026-07-13T17:05:26.019-0400] {standard_task_runner.py:104} INFO - Running: ['airflow', 'tasks', 'run', 'retail_data_pipeline', 'generate_sales_data', 'manual__2026-07-13T21:05:23.340208+00:00', '--job-id', '10', '--raw', '--subdir', 'DAGS_FOLDER/retail_data_pipeline.py', '--cfg-path', '/var/folders/b6/0hr2lwsd3nsdd5yd4q8hlhrw0000gn/T/tmpijnme8dx']
+[2026-07-13T17:05:26.021-0400] {standard_task_runner.py:105} INFO - Job 10: Subtask generate_sales_data
+[2026-07-13T17:05:26.044-0400] {task_command.py:467} INFO - Running <TaskInstance: retail_data_pipeline.generate_sales_data manual__2026-07-13T21:05:23.340208+00:00 [running]> on host anithas-macbook-air.local
+[2026-07-13T17:05:26.077-0400] {taskinstance.py:3132} INFO - Exporting env vars: AIRFLOW_CTX_DAG_OWNER='anitha' AIRFLOW_CTX_DAG_ID='retail_data_pipeline' AIRFLOW_CTX_TASK_ID='generate_sales_data' AIRFLOW_CTX_EXECUTION_DATE='2026-07-13T21:05:23.340208+00:00' AIRFLOW_CTX_TRY_NUMBER='1' AIRFLOW_CTX_DAG_RUN_ID='manual__2026-07-13T21:05:23.340208+00:00'
+[2026-07-13T17:05:26.078-0400] {taskinstance.py:731} INFO - ::endgroup::
+[2026-07-13T17:05:26.089-0400] {subprocess.py:78} INFO - Tmp dir root location: /var/folders/b6/0hr2lwsd3nsdd5yd4q8hlhrw0000gn/T
+[2026-07-13T17:05:26.090-0400] {subprocess.py:88} INFO - Running command: ['/bin/bash', '-c', '\n        cd /Users/anitharaj/retail-data-engineering-platform &&\n        python src/data_generator.py\n        ']
+[2026-07-13T17:05:26.095-0400] {subprocess.py:99} INFO - Output:
+[2026-07-13T17:05:26.273-0400] {subprocess.py:106} INFO - Generated 1000 retail transactions
+[2026-07-13T17:05:26.282-0400] {subprocess.py:110} INFO - Command exited with return code 0
+[2026-07-13T17:05:26.292-0400] {taskinstance.py:340} INFO - ::group::Post task execution logs
+[2026-07-13T17:05:26.293-0400] {taskinstance.py:352} INFO - Marking task as SUCCESS. dag_id=retail_data_pipeline, task_id=generate_sales_data, run_id=manual__2026-07-13T21:05:23.340208+00:00, execution_date=20260713T210523, start_date=20260713T210526, end_date=20260713T210526
+[2026-07-13T17:05:26.320-0400] {local_task_job_runner.py:266} INFO - Task exited with return code 0
+[2026-07-13T17:05:26.330-0400] {taskinstance.py:3895} INFO - 1 downstream tasks scheduled from follow-on schedule check
+[2026-07-13T17:05:26.330-0400] {local_task_job_runner.py:245} INFO - ::endgroup::

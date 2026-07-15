@@ -1,0 +1,435 @@
+[2026-07-13T16:47:30.816-0400] {processor.py:186} INFO - Started process (PID=83052) to work on /Users/anitharaj/retail-data-engineering-platform/airflow/dags/retail_data_pipeline.py
+[2026-07-13T16:47:30.818-0400] {processor.py:914} INFO - Processing file /Users/anitharaj/retail-data-engineering-platform/airflow/dags/retail_data_pipeline.py for tasks to queue
+[2026-07-13T16:47:30.818-0400] {logging_mixin.py:190} INFO - [2026-07-13T16:47:30.818-0400] {dagbag.py:588} INFO - Filling up the DagBag from /Users/anitharaj/retail-data-engineering-platform/airflow/dags/retail_data_pipeline.py
+[2026-07-13T16:47:30.827-0400] {processor.py:925} INFO - DAG(s) 'retail_data_pipeline' retrieved from /Users/anitharaj/retail-data-engineering-platform/airflow/dags/retail_data_pipeline.py
+[2026-07-13T16:47:30.953-0400] {logging_mixin.py:190} INFO - [2026-07-13T16:47:30.953-0400] {override.py:1911} INFO - Created Permission View: can read on DAG:retail_data_pipeline
+[2026-07-13T16:47:30.957-0400] {logging_mixin.py:190} INFO - [2026-07-13T16:47:30.957-0400] {override.py:1911} INFO - Created Permission View: can delete on DAG:retail_data_pipeline
+[2026-07-13T16:47:30.960-0400] {logging_mixin.py:190} INFO - [2026-07-13T16:47:30.960-0400] {override.py:1911} INFO - Created Permission View: can edit on DAG:retail_data_pipeline
+[2026-07-13T16:47:30.963-0400] {logging_mixin.py:190} INFO - [2026-07-13T16:47:30.963-0400] {override.py:1911} INFO - Created Permission View: can read on DAG Run:retail_data_pipeline
+[2026-07-13T16:47:30.968-0400] {logging_mixin.py:190} INFO - [2026-07-13T16:47:30.968-0400] {override.py:1911} INFO - Created Permission View: can delete on DAG Run:retail_data_pipeline
+[2026-07-13T16:47:30.971-0400] {logging_mixin.py:190} INFO - [2026-07-13T16:47:30.971-0400] {override.py:1911} INFO - Created Permission View: can create on DAG Run:retail_data_pipeline
+[2026-07-13T16:47:30.975-0400] {logging_mixin.py:190} INFO - [2026-07-13T16:47:30.975-0400] {override.py:1911} INFO - Created Permission View: menu access on DAG Run:retail_data_pipeline
+[2026-07-13T16:47:30.975-0400] {logging_mixin.py:190} INFO - [2026-07-13T16:47:30.975-0400] {dag.py:3239} INFO - Sync 1 DAGs
+[2026-07-13T16:47:30.982-0400] {logging_mixin.py:190} INFO - [2026-07-13T16:47:30.982-0400] {dag.py:3262} INFO - Creating ORM DAG for retail_data_pipeline
+[2026-07-13T16:47:30.987-0400] {logging_mixin.py:190} INFO - [2026-07-13T16:47:30.987-0400] {dag.py:4180} INFO - Setting next_dagrun for retail_data_pipeline to 2026-07-13 00:00:00+00:00, run_after=2026-07-14 00:00:00+00:00
+[2026-07-13T16:47:30.995-0400] {processor.py:208} INFO - Processing /Users/anitharaj/retail-data-engineering-platform/airflow/dags/retail_data_pipeline.py took 0.181 seconds
+[2026-07-13T16:48:03.171-0400] {processor.py:186} INFO - Started process (PID=83061) to work on /Users/anitharaj/retail-data-engineering-platform/airflow/dags/retail_data_pipeline.py
+[2026-07-13T16:48:03.174-0400] {processor.py:914} INFO - Processing file /Users/anitharaj/retail-data-engineering-platform/airflow/dags/retail_data_pipeline.py for tasks to queue
+[2026-07-13T16:48:03.175-0400] {logging_mixin.py:190} INFO - [2026-07-13T16:48:03.175-0400] {dagbag.py:588} INFO - Filling up the DagBag from /Users/anitharaj/retail-data-engineering-platform/airflow/dags/retail_data_pipeline.py
+[2026-07-13T16:48:03.183-0400] {processor.py:925} INFO - DAG(s) 'retail_data_pipeline' retrieved from /Users/anitharaj/retail-data-engineering-platform/airflow/dags/retail_data_pipeline.py
+[2026-07-13T16:48:03.247-0400] {logging_mixin.py:190} INFO - [2026-07-13T16:48:03.247-0400] {dag.py:3239} INFO - Sync 1 DAGs
+[2026-07-13T16:48:03.260-0400] {logging_mixin.py:190} INFO - [2026-07-13T16:48:03.259-0400] {dag.py:4180} INFO - Setting next_dagrun for retail_data_pipeline to 2026-07-13 00:00:00+00:00, run_after=2026-07-14 00:00:00+00:00
+[2026-07-13T16:48:03.269-0400] {processor.py:208} INFO - Processing /Users/anitharaj/retail-data-engineering-platform/airflow/dags/retail_data_pipeline.py took 0.101 seconds
+[2026-07-13T16:48:35.375-0400] {processor.py:186} INFO - Started process (PID=83071) to work on /Users/anitharaj/retail-data-engineering-platform/airflow/dags/retail_data_pipeline.py
+[2026-07-13T16:48:35.377-0400] {processor.py:914} INFO - Processing file /Users/anitharaj/retail-data-engineering-platform/airflow/dags/retail_data_pipeline.py for tasks to queue
+[2026-07-13T16:48:35.378-0400] {logging_mixin.py:190} INFO - [2026-07-13T16:48:35.378-0400] {dagbag.py:588} INFO - Filling up the DagBag from /Users/anitharaj/retail-data-engineering-platform/airflow/dags/retail_data_pipeline.py
+[2026-07-13T16:48:35.385-0400] {processor.py:925} INFO - DAG(s) 'retail_data_pipeline' retrieved from /Users/anitharaj/retail-data-engineering-platform/airflow/dags/retail_data_pipeline.py
+[2026-07-13T16:48:35.449-0400] {logging_mixin.py:190} INFO - [2026-07-13T16:48:35.449-0400] {dag.py:3239} INFO - Sync 1 DAGs
+[2026-07-13T16:48:35.460-0400] {logging_mixin.py:190} INFO - [2026-07-13T16:48:35.460-0400] {dag.py:4180} INFO - Setting next_dagrun for retail_data_pipeline to 2026-07-13 00:00:00+00:00, run_after=2026-07-14 00:00:00+00:00
+[2026-07-13T16:48:35.470-0400] {processor.py:208} INFO - Processing /Users/anitharaj/retail-data-engineering-platform/airflow/dags/retail_data_pipeline.py took 0.096 seconds
+[2026-07-13T16:49:06.843-0400] {processor.py:186} INFO - Started process (PID=83080) to work on /Users/anitharaj/retail-data-engineering-platform/airflow/dags/retail_data_pipeline.py
+[2026-07-13T16:49:06.845-0400] {processor.py:914} INFO - Processing file /Users/anitharaj/retail-data-engineering-platform/airflow/dags/retail_data_pipeline.py for tasks to queue
+[2026-07-13T16:49:06.846-0400] {logging_mixin.py:190} INFO - [2026-07-13T16:49:06.846-0400] {dagbag.py:588} INFO - Filling up the DagBag from /Users/anitharaj/retail-data-engineering-platform/airflow/dags/retail_data_pipeline.py
+[2026-07-13T16:49:06.853-0400] {processor.py:925} INFO - DAG(s) 'retail_data_pipeline' retrieved from /Users/anitharaj/retail-data-engineering-platform/airflow/dags/retail_data_pipeline.py
+[2026-07-13T16:49:06.915-0400] {logging_mixin.py:190} INFO - [2026-07-13T16:49:06.914-0400] {dag.py:3239} INFO - Sync 1 DAGs
+[2026-07-13T16:49:06.928-0400] {logging_mixin.py:190} INFO - [2026-07-13T16:49:06.928-0400] {dag.py:4180} INFO - Setting next_dagrun for retail_data_pipeline to 2026-07-13 00:00:00+00:00, run_after=2026-07-14 00:00:00+00:00
+[2026-07-13T16:49:06.938-0400] {processor.py:208} INFO - Processing /Users/anitharaj/retail-data-engineering-platform/airflow/dags/retail_data_pipeline.py took 0.097 seconds
+[2026-07-13T16:49:38.540-0400] {processor.py:186} INFO - Started process (PID=83087) to work on /Users/anitharaj/retail-data-engineering-platform/airflow/dags/retail_data_pipeline.py
+[2026-07-13T16:49:38.544-0400] {processor.py:914} INFO - Processing file /Users/anitharaj/retail-data-engineering-platform/airflow/dags/retail_data_pipeline.py for tasks to queue
+[2026-07-13T16:49:38.544-0400] {logging_mixin.py:190} INFO - [2026-07-13T16:49:38.544-0400] {dagbag.py:588} INFO - Filling up the DagBag from /Users/anitharaj/retail-data-engineering-platform/airflow/dags/retail_data_pipeline.py
+[2026-07-13T16:49:38.553-0400] {processor.py:925} INFO - DAG(s) 'retail_data_pipeline' retrieved from /Users/anitharaj/retail-data-engineering-platform/airflow/dags/retail_data_pipeline.py
+[2026-07-13T16:49:38.617-0400] {logging_mixin.py:190} INFO - [2026-07-13T16:49:38.617-0400] {dag.py:3239} INFO - Sync 1 DAGs
+[2026-07-13T16:49:38.629-0400] {logging_mixin.py:190} INFO - [2026-07-13T16:49:38.629-0400] {dag.py:4180} INFO - Setting next_dagrun for retail_data_pipeline to 2026-07-13 00:00:00+00:00, run_after=2026-07-14 00:00:00+00:00
+[2026-07-13T16:49:38.638-0400] {processor.py:208} INFO - Processing /Users/anitharaj/retail-data-engineering-platform/airflow/dags/retail_data_pipeline.py took 0.099 seconds
+[2026-07-13T16:50:10.244-0400] {processor.py:186} INFO - Started process (PID=83097) to work on /Users/anitharaj/retail-data-engineering-platform/airflow/dags/retail_data_pipeline.py
+[2026-07-13T16:50:10.247-0400] {processor.py:914} INFO - Processing file /Users/anitharaj/retail-data-engineering-platform/airflow/dags/retail_data_pipeline.py for tasks to queue
+[2026-07-13T16:50:10.248-0400] {logging_mixin.py:190} INFO - [2026-07-13T16:50:10.248-0400] {dagbag.py:588} INFO - Filling up the DagBag from /Users/anitharaj/retail-data-engineering-platform/airflow/dags/retail_data_pipeline.py
+[2026-07-13T16:50:10.256-0400] {processor.py:925} INFO - DAG(s) 'retail_data_pipeline' retrieved from /Users/anitharaj/retail-data-engineering-platform/airflow/dags/retail_data_pipeline.py
+[2026-07-13T16:50:10.319-0400] {logging_mixin.py:190} INFO - [2026-07-13T16:50:10.319-0400] {dag.py:3239} INFO - Sync 1 DAGs
+[2026-07-13T16:50:10.332-0400] {logging_mixin.py:190} INFO - [2026-07-13T16:50:10.331-0400] {dag.py:4180} INFO - Setting next_dagrun for retail_data_pipeline to 2026-07-13 00:00:00+00:00, run_after=2026-07-14 00:00:00+00:00
+[2026-07-13T16:50:10.341-0400] {processor.py:208} INFO - Processing /Users/anitharaj/retail-data-engineering-platform/airflow/dags/retail_data_pipeline.py took 0.099 seconds
+[2026-07-13T16:50:41.859-0400] {processor.py:186} INFO - Started process (PID=83102) to work on /Users/anitharaj/retail-data-engineering-platform/airflow/dags/retail_data_pipeline.py
+[2026-07-13T16:50:41.861-0400] {processor.py:914} INFO - Processing file /Users/anitharaj/retail-data-engineering-platform/airflow/dags/retail_data_pipeline.py for tasks to queue
+[2026-07-13T16:50:41.862-0400] {logging_mixin.py:190} INFO - [2026-07-13T16:50:41.862-0400] {dagbag.py:588} INFO - Filling up the DagBag from /Users/anitharaj/retail-data-engineering-platform/airflow/dags/retail_data_pipeline.py
+[2026-07-13T16:50:41.870-0400] {processor.py:925} INFO - DAG(s) 'retail_data_pipeline' retrieved from /Users/anitharaj/retail-data-engineering-platform/airflow/dags/retail_data_pipeline.py
+[2026-07-13T16:50:41.934-0400] {logging_mixin.py:190} INFO - [2026-07-13T16:50:41.933-0400] {dag.py:3239} INFO - Sync 1 DAGs
+[2026-07-13T16:50:41.946-0400] {logging_mixin.py:190} INFO - [2026-07-13T16:50:41.946-0400] {dag.py:4180} INFO - Setting next_dagrun for retail_data_pipeline to 2026-07-13 00:00:00+00:00, run_after=2026-07-14 00:00:00+00:00
+[2026-07-13T16:50:41.957-0400] {processor.py:208} INFO - Processing /Users/anitharaj/retail-data-engineering-platform/airflow/dags/retail_data_pipeline.py took 0.100 seconds
+[2026-07-13T16:51:13.520-0400] {processor.py:186} INFO - Started process (PID=83138) to work on /Users/anitharaj/retail-data-engineering-platform/airflow/dags/retail_data_pipeline.py
+[2026-07-13T16:51:13.524-0400] {processor.py:914} INFO - Processing file /Users/anitharaj/retail-data-engineering-platform/airflow/dags/retail_data_pipeline.py for tasks to queue
+[2026-07-13T16:51:13.524-0400] {logging_mixin.py:190} INFO - [2026-07-13T16:51:13.524-0400] {dagbag.py:588} INFO - Filling up the DagBag from /Users/anitharaj/retail-data-engineering-platform/airflow/dags/retail_data_pipeline.py
+[2026-07-13T16:51:13.533-0400] {processor.py:925} INFO - DAG(s) 'retail_data_pipeline' retrieved from /Users/anitharaj/retail-data-engineering-platform/airflow/dags/retail_data_pipeline.py
+[2026-07-13T16:51:13.596-0400] {logging_mixin.py:190} INFO - [2026-07-13T16:51:13.596-0400] {dag.py:3239} INFO - Sync 1 DAGs
+[2026-07-13T16:51:13.609-0400] {logging_mixin.py:190} INFO - [2026-07-13T16:51:13.609-0400] {dag.py:4180} INFO - Setting next_dagrun for retail_data_pipeline to 2026-07-13 00:00:00+00:00, run_after=2026-07-14 00:00:00+00:00
+[2026-07-13T16:51:13.619-0400] {processor.py:208} INFO - Processing /Users/anitharaj/retail-data-engineering-platform/airflow/dags/retail_data_pipeline.py took 0.101 seconds
+[2026-07-13T16:51:45.419-0400] {processor.py:186} INFO - Started process (PID=83145) to work on /Users/anitharaj/retail-data-engineering-platform/airflow/dags/retail_data_pipeline.py
+[2026-07-13T16:51:45.421-0400] {processor.py:914} INFO - Processing file /Users/anitharaj/retail-data-engineering-platform/airflow/dags/retail_data_pipeline.py for tasks to queue
+[2026-07-13T16:51:45.422-0400] {logging_mixin.py:190} INFO - [2026-07-13T16:51:45.422-0400] {dagbag.py:588} INFO - Filling up the DagBag from /Users/anitharaj/retail-data-engineering-platform/airflow/dags/retail_data_pipeline.py
+[2026-07-13T16:51:45.431-0400] {processor.py:925} INFO - DAG(s) 'retail_data_pipeline' retrieved from /Users/anitharaj/retail-data-engineering-platform/airflow/dags/retail_data_pipeline.py
+[2026-07-13T16:51:45.501-0400] {logging_mixin.py:190} INFO - [2026-07-13T16:51:45.501-0400] {dag.py:3239} INFO - Sync 1 DAGs
+[2026-07-13T16:51:45.515-0400] {logging_mixin.py:190} INFO - [2026-07-13T16:51:45.515-0400] {dag.py:4180} INFO - Setting next_dagrun for retail_data_pipeline to 2026-07-13 00:00:00+00:00, run_after=2026-07-14 00:00:00+00:00
+[2026-07-13T16:51:45.525-0400] {processor.py:208} INFO - Processing /Users/anitharaj/retail-data-engineering-platform/airflow/dags/retail_data_pipeline.py took 0.108 seconds
+[2026-07-13T16:52:16.956-0400] {processor.py:186} INFO - Started process (PID=83158) to work on /Users/anitharaj/retail-data-engineering-platform/airflow/dags/retail_data_pipeline.py
+[2026-07-13T16:52:16.959-0400] {processor.py:914} INFO - Processing file /Users/anitharaj/retail-data-engineering-platform/airflow/dags/retail_data_pipeline.py for tasks to queue
+[2026-07-13T16:52:16.959-0400] {logging_mixin.py:190} INFO - [2026-07-13T16:52:16.959-0400] {dagbag.py:588} INFO - Filling up the DagBag from /Users/anitharaj/retail-data-engineering-platform/airflow/dags/retail_data_pipeline.py
+[2026-07-13T16:52:16.967-0400] {processor.py:925} INFO - DAG(s) 'retail_data_pipeline' retrieved from /Users/anitharaj/retail-data-engineering-platform/airflow/dags/retail_data_pipeline.py
+[2026-07-13T16:52:17.034-0400] {logging_mixin.py:190} INFO - [2026-07-13T16:52:17.034-0400] {dag.py:3239} INFO - Sync 1 DAGs
+[2026-07-13T16:52:17.047-0400] {logging_mixin.py:190} INFO - [2026-07-13T16:52:17.047-0400] {dag.py:4180} INFO - Setting next_dagrun for retail_data_pipeline to 2026-07-13 00:00:00+00:00, run_after=2026-07-14 00:00:00+00:00
+[2026-07-13T16:52:17.057-0400] {processor.py:208} INFO - Processing /Users/anitharaj/retail-data-engineering-platform/airflow/dags/retail_data_pipeline.py took 0.103 seconds
+[2026-07-13T16:52:48.649-0400] {processor.py:186} INFO - Started process (PID=83168) to work on /Users/anitharaj/retail-data-engineering-platform/airflow/dags/retail_data_pipeline.py
+[2026-07-13T16:52:48.653-0400] {processor.py:914} INFO - Processing file /Users/anitharaj/retail-data-engineering-platform/airflow/dags/retail_data_pipeline.py for tasks to queue
+[2026-07-13T16:52:48.653-0400] {logging_mixin.py:190} INFO - [2026-07-13T16:52:48.653-0400] {dagbag.py:588} INFO - Filling up the DagBag from /Users/anitharaj/retail-data-engineering-platform/airflow/dags/retail_data_pipeline.py
+[2026-07-13T16:52:48.662-0400] {processor.py:925} INFO - DAG(s) 'retail_data_pipeline' retrieved from /Users/anitharaj/retail-data-engineering-platform/airflow/dags/retail_data_pipeline.py
+[2026-07-13T16:52:48.725-0400] {logging_mixin.py:190} INFO - [2026-07-13T16:52:48.725-0400] {dag.py:3239} INFO - Sync 1 DAGs
+[2026-07-13T16:52:48.737-0400] {logging_mixin.py:190} INFO - [2026-07-13T16:52:48.737-0400] {dag.py:4180} INFO - Setting next_dagrun for retail_data_pipeline to 2026-07-13 00:00:00+00:00, run_after=2026-07-14 00:00:00+00:00
+[2026-07-13T16:52:48.747-0400] {processor.py:208} INFO - Processing /Users/anitharaj/retail-data-engineering-platform/airflow/dags/retail_data_pipeline.py took 0.099 seconds
+[2026-07-13T16:53:20.212-0400] {processor.py:186} INFO - Started process (PID=83177) to work on /Users/anitharaj/retail-data-engineering-platform/airflow/dags/retail_data_pipeline.py
+[2026-07-13T16:53:20.214-0400] {processor.py:914} INFO - Processing file /Users/anitharaj/retail-data-engineering-platform/airflow/dags/retail_data_pipeline.py for tasks to queue
+[2026-07-13T16:53:20.215-0400] {logging_mixin.py:190} INFO - [2026-07-13T16:53:20.215-0400] {dagbag.py:588} INFO - Filling up the DagBag from /Users/anitharaj/retail-data-engineering-platform/airflow/dags/retail_data_pipeline.py
+[2026-07-13T16:53:20.224-0400] {processor.py:925} INFO - DAG(s) 'retail_data_pipeline' retrieved from /Users/anitharaj/retail-data-engineering-platform/airflow/dags/retail_data_pipeline.py
+[2026-07-13T16:53:20.287-0400] {logging_mixin.py:190} INFO - [2026-07-13T16:53:20.287-0400] {dag.py:3239} INFO - Sync 1 DAGs
+[2026-07-13T16:53:20.298-0400] {logging_mixin.py:190} INFO - [2026-07-13T16:53:20.298-0400] {dag.py:4180} INFO - Setting next_dagrun for retail_data_pipeline to 2026-07-13 00:00:00+00:00, run_after=2026-07-14 00:00:00+00:00
+[2026-07-13T16:53:20.307-0400] {processor.py:208} INFO - Processing /Users/anitharaj/retail-data-engineering-platform/airflow/dags/retail_data_pipeline.py took 0.098 seconds
+[2026-07-13T16:53:51.508-0400] {processor.py:186} INFO - Started process (PID=83190) to work on /Users/anitharaj/retail-data-engineering-platform/airflow/dags/retail_data_pipeline.py
+[2026-07-13T16:53:51.511-0400] {processor.py:914} INFO - Processing file /Users/anitharaj/retail-data-engineering-platform/airflow/dags/retail_data_pipeline.py for tasks to queue
+[2026-07-13T16:53:51.512-0400] {logging_mixin.py:190} INFO - [2026-07-13T16:53:51.511-0400] {dagbag.py:588} INFO - Filling up the DagBag from /Users/anitharaj/retail-data-engineering-platform/airflow/dags/retail_data_pipeline.py
+[2026-07-13T16:53:51.519-0400] {processor.py:925} INFO - DAG(s) 'retail_data_pipeline' retrieved from /Users/anitharaj/retail-data-engineering-platform/airflow/dags/retail_data_pipeline.py
+[2026-07-13T16:53:51.582-0400] {logging_mixin.py:190} INFO - [2026-07-13T16:53:51.582-0400] {dag.py:3239} INFO - Sync 1 DAGs
+[2026-07-13T16:53:51.593-0400] {logging_mixin.py:190} INFO - [2026-07-13T16:53:51.593-0400] {dag.py:4180} INFO - Setting next_dagrun for retail_data_pipeline to 2026-07-13 00:00:00+00:00, run_after=2026-07-14 00:00:00+00:00
+[2026-07-13T16:53:51.603-0400] {processor.py:208} INFO - Processing /Users/anitharaj/retail-data-engineering-platform/airflow/dags/retail_data_pipeline.py took 0.097 seconds
+[2026-07-13T16:54:23.135-0400] {processor.py:186} INFO - Started process (PID=83200) to work on /Users/anitharaj/retail-data-engineering-platform/airflow/dags/retail_data_pipeline.py
+[2026-07-13T16:54:23.137-0400] {processor.py:914} INFO - Processing file /Users/anitharaj/retail-data-engineering-platform/airflow/dags/retail_data_pipeline.py for tasks to queue
+[2026-07-13T16:54:23.138-0400] {logging_mixin.py:190} INFO - [2026-07-13T16:54:23.138-0400] {dagbag.py:588} INFO - Filling up the DagBag from /Users/anitharaj/retail-data-engineering-platform/airflow/dags/retail_data_pipeline.py
+[2026-07-13T16:54:23.146-0400] {processor.py:925} INFO - DAG(s) 'retail_data_pipeline' retrieved from /Users/anitharaj/retail-data-engineering-platform/airflow/dags/retail_data_pipeline.py
+[2026-07-13T16:54:23.210-0400] {logging_mixin.py:190} INFO - [2026-07-13T16:54:23.210-0400] {dag.py:3239} INFO - Sync 1 DAGs
+[2026-07-13T16:54:23.221-0400] {logging_mixin.py:190} INFO - [2026-07-13T16:54:23.221-0400] {dag.py:4180} INFO - Setting next_dagrun for retail_data_pipeline to 2026-07-13 00:00:00+00:00, run_after=2026-07-14 00:00:00+00:00
+[2026-07-13T16:54:23.230-0400] {processor.py:208} INFO - Processing /Users/anitharaj/retail-data-engineering-platform/airflow/dags/retail_data_pipeline.py took 0.097 seconds
+[2026-07-13T16:54:54.817-0400] {processor.py:186} INFO - Started process (PID=83216) to work on /Users/anitharaj/retail-data-engineering-platform/airflow/dags/retail_data_pipeline.py
+[2026-07-13T16:54:54.820-0400] {processor.py:914} INFO - Processing file /Users/anitharaj/retail-data-engineering-platform/airflow/dags/retail_data_pipeline.py for tasks to queue
+[2026-07-13T16:54:54.821-0400] {logging_mixin.py:190} INFO - [2026-07-13T16:54:54.821-0400] {dagbag.py:588} INFO - Filling up the DagBag from /Users/anitharaj/retail-data-engineering-platform/airflow/dags/retail_data_pipeline.py
+[2026-07-13T16:54:54.830-0400] {processor.py:925} INFO - DAG(s) 'retail_data_pipeline' retrieved from /Users/anitharaj/retail-data-engineering-platform/airflow/dags/retail_data_pipeline.py
+[2026-07-13T16:54:54.898-0400] {logging_mixin.py:190} INFO - [2026-07-13T16:54:54.897-0400] {dag.py:3239} INFO - Sync 1 DAGs
+[2026-07-13T16:54:54.911-0400] {logging_mixin.py:190} INFO - [2026-07-13T16:54:54.911-0400] {dag.py:4180} INFO - Setting next_dagrun for retail_data_pipeline to 2026-07-13 00:00:00+00:00, run_after=2026-07-14 00:00:00+00:00
+[2026-07-13T16:54:54.921-0400] {processor.py:208} INFO - Processing /Users/anitharaj/retail-data-engineering-platform/airflow/dags/retail_data_pipeline.py took 0.107 seconds
+[2026-07-13T16:55:26.407-0400] {processor.py:186} INFO - Started process (PID=83222) to work on /Users/anitharaj/retail-data-engineering-platform/airflow/dags/retail_data_pipeline.py
+[2026-07-13T16:55:26.411-0400] {processor.py:914} INFO - Processing file /Users/anitharaj/retail-data-engineering-platform/airflow/dags/retail_data_pipeline.py for tasks to queue
+[2026-07-13T16:55:26.412-0400] {logging_mixin.py:190} INFO - [2026-07-13T16:55:26.412-0400] {dagbag.py:588} INFO - Filling up the DagBag from /Users/anitharaj/retail-data-engineering-platform/airflow/dags/retail_data_pipeline.py
+[2026-07-13T16:55:26.421-0400] {processor.py:925} INFO - DAG(s) 'retail_data_pipeline' retrieved from /Users/anitharaj/retail-data-engineering-platform/airflow/dags/retail_data_pipeline.py
+[2026-07-13T16:55:26.498-0400] {logging_mixin.py:190} INFO - [2026-07-13T16:55:26.498-0400] {dag.py:3239} INFO - Sync 1 DAGs
+[2026-07-13T16:55:26.512-0400] {logging_mixin.py:190} INFO - [2026-07-13T16:55:26.512-0400] {dag.py:4180} INFO - Setting next_dagrun for retail_data_pipeline to 2026-07-13 00:00:00+00:00, run_after=2026-07-14 00:00:00+00:00
+[2026-07-13T16:55:26.525-0400] {processor.py:208} INFO - Processing /Users/anitharaj/retail-data-engineering-platform/airflow/dags/retail_data_pipeline.py took 0.120 seconds
+[2026-07-13T16:55:58.264-0400] {processor.py:186} INFO - Started process (PID=83229) to work on /Users/anitharaj/retail-data-engineering-platform/airflow/dags/retail_data_pipeline.py
+[2026-07-13T16:55:58.267-0400] {processor.py:914} INFO - Processing file /Users/anitharaj/retail-data-engineering-platform/airflow/dags/retail_data_pipeline.py for tasks to queue
+[2026-07-13T16:55:58.268-0400] {logging_mixin.py:190} INFO - [2026-07-13T16:55:58.268-0400] {dagbag.py:588} INFO - Filling up the DagBag from /Users/anitharaj/retail-data-engineering-platform/airflow/dags/retail_data_pipeline.py
+[2026-07-13T16:55:58.277-0400] {processor.py:925} INFO - DAG(s) 'retail_data_pipeline' retrieved from /Users/anitharaj/retail-data-engineering-platform/airflow/dags/retail_data_pipeline.py
+[2026-07-13T16:55:58.344-0400] {logging_mixin.py:190} INFO - [2026-07-13T16:55:58.343-0400] {dag.py:3239} INFO - Sync 1 DAGs
+[2026-07-13T16:55:58.355-0400] {logging_mixin.py:190} INFO - [2026-07-13T16:55:58.355-0400] {dag.py:4180} INFO - Setting next_dagrun for retail_data_pipeline to 2026-07-13 00:00:00+00:00, run_after=2026-07-14 00:00:00+00:00
+[2026-07-13T16:55:58.366-0400] {processor.py:208} INFO - Processing /Users/anitharaj/retail-data-engineering-platform/airflow/dags/retail_data_pipeline.py took 0.103 seconds
+[2026-07-13T16:56:09.859-0400] {processor.py:186} INFO - Started process (PID=83239) to work on /Users/anitharaj/retail-data-engineering-platform/airflow/dags/retail_data_pipeline.py
+[2026-07-13T16:56:09.861-0400] {processor.py:914} INFO - Processing file /Users/anitharaj/retail-data-engineering-platform/airflow/dags/retail_data_pipeline.py for tasks to queue
+[2026-07-13T16:56:09.862-0400] {logging_mixin.py:190} INFO - [2026-07-13T16:56:09.862-0400] {dagbag.py:588} INFO - Filling up the DagBag from /Users/anitharaj/retail-data-engineering-platform/airflow/dags/retail_data_pipeline.py
+[2026-07-13T16:56:09.868-0400] {processor.py:925} INFO - DAG(s) 'retail_data_pipeline' retrieved from /Users/anitharaj/retail-data-engineering-platform/airflow/dags/retail_data_pipeline.py
+[2026-07-13T16:56:09.929-0400] {logging_mixin.py:190} INFO - [2026-07-13T16:56:09.929-0400] {dag.py:3239} INFO - Sync 1 DAGs
+[2026-07-13T16:56:09.939-0400] {logging_mixin.py:190} INFO - [2026-07-13T16:56:09.939-0400] {dag.py:4180} INFO - Setting next_dagrun for retail_data_pipeline to 2026-07-13 00:00:00+00:00, run_after=2026-07-14 00:00:00+00:00
+[2026-07-13T16:56:09.948-0400] {processor.py:208} INFO - Processing /Users/anitharaj/retail-data-engineering-platform/airflow/dags/retail_data_pipeline.py took 0.091 seconds
+[2026-07-13T16:56:41.212-0400] {processor.py:186} INFO - Started process (PID=83247) to work on /Users/anitharaj/retail-data-engineering-platform/airflow/dags/retail_data_pipeline.py
+[2026-07-13T16:56:41.215-0400] {processor.py:914} INFO - Processing file /Users/anitharaj/retail-data-engineering-platform/airflow/dags/retail_data_pipeline.py for tasks to queue
+[2026-07-13T16:56:41.216-0400] {logging_mixin.py:190} INFO - [2026-07-13T16:56:41.216-0400] {dagbag.py:588} INFO - Filling up the DagBag from /Users/anitharaj/retail-data-engineering-platform/airflow/dags/retail_data_pipeline.py
+[2026-07-13T16:56:41.222-0400] {processor.py:925} INFO - DAG(s) 'retail_data_pipeline' retrieved from /Users/anitharaj/retail-data-engineering-platform/airflow/dags/retail_data_pipeline.py
+[2026-07-13T16:56:41.286-0400] {logging_mixin.py:190} INFO - [2026-07-13T16:56:41.286-0400] {dag.py:3239} INFO - Sync 1 DAGs
+[2026-07-13T16:56:41.297-0400] {logging_mixin.py:190} INFO - [2026-07-13T16:56:41.296-0400] {dag.py:4180} INFO - Setting next_dagrun for retail_data_pipeline to 2026-07-13 00:00:00+00:00, run_after=2026-07-14 00:00:00+00:00
+[2026-07-13T16:56:41.306-0400] {processor.py:208} INFO - Processing /Users/anitharaj/retail-data-engineering-platform/airflow/dags/retail_data_pipeline.py took 0.097 seconds
+[2026-07-13T16:57:12.578-0400] {processor.py:186} INFO - Started process (PID=83254) to work on /Users/anitharaj/retail-data-engineering-platform/airflow/dags/retail_data_pipeline.py
+[2026-07-13T16:57:12.581-0400] {processor.py:914} INFO - Processing file /Users/anitharaj/retail-data-engineering-platform/airflow/dags/retail_data_pipeline.py for tasks to queue
+[2026-07-13T16:57:12.581-0400] {logging_mixin.py:190} INFO - [2026-07-13T16:57:12.581-0400] {dagbag.py:588} INFO - Filling up the DagBag from /Users/anitharaj/retail-data-engineering-platform/airflow/dags/retail_data_pipeline.py
+[2026-07-13T16:57:12.588-0400] {processor.py:925} INFO - DAG(s) 'retail_data_pipeline' retrieved from /Users/anitharaj/retail-data-engineering-platform/airflow/dags/retail_data_pipeline.py
+[2026-07-13T16:57:12.650-0400] {logging_mixin.py:190} INFO - [2026-07-13T16:57:12.649-0400] {dag.py:3239} INFO - Sync 1 DAGs
+[2026-07-13T16:57:12.660-0400] {logging_mixin.py:190} INFO - [2026-07-13T16:57:12.660-0400] {dag.py:4180} INFO - Setting next_dagrun for retail_data_pipeline to 2026-07-13 00:00:00+00:00, run_after=2026-07-14 00:00:00+00:00
+[2026-07-13T16:57:12.670-0400] {processor.py:208} INFO - Processing /Users/anitharaj/retail-data-engineering-platform/airflow/dags/retail_data_pipeline.py took 0.094 seconds
+[2026-07-13T16:57:44.215-0400] {processor.py:186} INFO - Started process (PID=83297) to work on /Users/anitharaj/retail-data-engineering-platform/airflow/dags/retail_data_pipeline.py
+[2026-07-13T16:57:44.219-0400] {processor.py:914} INFO - Processing file /Users/anitharaj/retail-data-engineering-platform/airflow/dags/retail_data_pipeline.py for tasks to queue
+[2026-07-13T16:57:44.219-0400] {logging_mixin.py:190} INFO - [2026-07-13T16:57:44.219-0400] {dagbag.py:588} INFO - Filling up the DagBag from /Users/anitharaj/retail-data-engineering-platform/airflow/dags/retail_data_pipeline.py
+[2026-07-13T16:57:44.228-0400] {processor.py:925} INFO - DAG(s) 'retail_data_pipeline' retrieved from /Users/anitharaj/retail-data-engineering-platform/airflow/dags/retail_data_pipeline.py
+[2026-07-13T16:57:44.291-0400] {logging_mixin.py:190} INFO - [2026-07-13T16:57:44.291-0400] {dag.py:3239} INFO - Sync 1 DAGs
+[2026-07-13T16:57:44.302-0400] {logging_mixin.py:190} INFO - [2026-07-13T16:57:44.302-0400] {dag.py:4180} INFO - Setting next_dagrun for retail_data_pipeline to 2026-07-13 00:00:00+00:00, run_after=2026-07-14 00:00:00+00:00
+[2026-07-13T16:57:44.311-0400] {processor.py:208} INFO - Processing /Users/anitharaj/retail-data-engineering-platform/airflow/dags/retail_data_pipeline.py took 0.098 seconds
+[2026-07-13T16:58:15.551-0400] {processor.py:186} INFO - Started process (PID=83308) to work on /Users/anitharaj/retail-data-engineering-platform/airflow/dags/retail_data_pipeline.py
+[2026-07-13T16:58:15.554-0400] {processor.py:914} INFO - Processing file /Users/anitharaj/retail-data-engineering-platform/airflow/dags/retail_data_pipeline.py for tasks to queue
+[2026-07-13T16:58:15.555-0400] {logging_mixin.py:190} INFO - [2026-07-13T16:58:15.554-0400] {dagbag.py:588} INFO - Filling up the DagBag from /Users/anitharaj/retail-data-engineering-platform/airflow/dags/retail_data_pipeline.py
+[2026-07-13T16:58:15.562-0400] {processor.py:925} INFO - DAG(s) 'retail_data_pipeline' retrieved from /Users/anitharaj/retail-data-engineering-platform/airflow/dags/retail_data_pipeline.py
+[2026-07-13T16:58:15.629-0400] {logging_mixin.py:190} INFO - [2026-07-13T16:58:15.629-0400] {dag.py:3239} INFO - Sync 1 DAGs
+[2026-07-13T16:58:15.641-0400] {logging_mixin.py:190} INFO - [2026-07-13T16:58:15.641-0400] {dag.py:4180} INFO - Setting next_dagrun for retail_data_pipeline to 2026-07-13 00:00:00+00:00, run_after=2026-07-14 00:00:00+00:00
+[2026-07-13T16:58:15.651-0400] {processor.py:208} INFO - Processing /Users/anitharaj/retail-data-engineering-platform/airflow/dags/retail_data_pipeline.py took 0.103 seconds
+[2026-07-13T16:58:46.921-0400] {processor.py:186} INFO - Started process (PID=83313) to work on /Users/anitharaj/retail-data-engineering-platform/airflow/dags/retail_data_pipeline.py
+[2026-07-13T16:58:46.923-0400] {processor.py:914} INFO - Processing file /Users/anitharaj/retail-data-engineering-platform/airflow/dags/retail_data_pipeline.py for tasks to queue
+[2026-07-13T16:58:46.924-0400] {logging_mixin.py:190} INFO - [2026-07-13T16:58:46.924-0400] {dagbag.py:588} INFO - Filling up the DagBag from /Users/anitharaj/retail-data-engineering-platform/airflow/dags/retail_data_pipeline.py
+[2026-07-13T16:58:46.931-0400] {processor.py:925} INFO - DAG(s) 'retail_data_pipeline' retrieved from /Users/anitharaj/retail-data-engineering-platform/airflow/dags/retail_data_pipeline.py
+[2026-07-13T16:58:46.993-0400] {logging_mixin.py:190} INFO - [2026-07-13T16:58:46.993-0400] {dag.py:3239} INFO - Sync 1 DAGs
+[2026-07-13T16:58:47.004-0400] {logging_mixin.py:190} INFO - [2026-07-13T16:58:47.004-0400] {dag.py:4180} INFO - Setting next_dagrun for retail_data_pipeline to 2026-07-13 00:00:00+00:00, run_after=2026-07-14 00:00:00+00:00
+[2026-07-13T16:58:47.013-0400] {processor.py:208} INFO - Processing /Users/anitharaj/retail-data-engineering-platform/airflow/dags/retail_data_pipeline.py took 0.094 seconds
+[2026-07-13T16:59:18.191-0400] {processor.py:186} INFO - Started process (PID=83324) to work on /Users/anitharaj/retail-data-engineering-platform/airflow/dags/retail_data_pipeline.py
+[2026-07-13T16:59:18.193-0400] {processor.py:914} INFO - Processing file /Users/anitharaj/retail-data-engineering-platform/airflow/dags/retail_data_pipeline.py for tasks to queue
+[2026-07-13T16:59:18.194-0400] {logging_mixin.py:190} INFO - [2026-07-13T16:59:18.194-0400] {dagbag.py:588} INFO - Filling up the DagBag from /Users/anitharaj/retail-data-engineering-platform/airflow/dags/retail_data_pipeline.py
+[2026-07-13T16:59:18.200-0400] {processor.py:925} INFO - DAG(s) 'retail_data_pipeline' retrieved from /Users/anitharaj/retail-data-engineering-platform/airflow/dags/retail_data_pipeline.py
+[2026-07-13T16:59:18.262-0400] {logging_mixin.py:190} INFO - [2026-07-13T16:59:18.262-0400] {dag.py:3239} INFO - Sync 1 DAGs
+[2026-07-13T16:59:18.272-0400] {logging_mixin.py:190} INFO - [2026-07-13T16:59:18.272-0400] {dag.py:4180} INFO - Setting next_dagrun for retail_data_pipeline to 2026-07-13 00:00:00+00:00, run_after=2026-07-14 00:00:00+00:00
+[2026-07-13T16:59:18.281-0400] {processor.py:208} INFO - Processing /Users/anitharaj/retail-data-engineering-platform/airflow/dags/retail_data_pipeline.py took 0.093 seconds
+[2026-07-13T16:59:49.490-0400] {processor.py:186} INFO - Started process (PID=83337) to work on /Users/anitharaj/retail-data-engineering-platform/airflow/dags/retail_data_pipeline.py
+[2026-07-13T16:59:49.493-0400] {processor.py:914} INFO - Processing file /Users/anitharaj/retail-data-engineering-platform/airflow/dags/retail_data_pipeline.py for tasks to queue
+[2026-07-13T16:59:49.494-0400] {logging_mixin.py:190} INFO - [2026-07-13T16:59:49.494-0400] {dagbag.py:588} INFO - Filling up the DagBag from /Users/anitharaj/retail-data-engineering-platform/airflow/dags/retail_data_pipeline.py
+[2026-07-13T16:59:49.501-0400] {processor.py:925} INFO - DAG(s) 'retail_data_pipeline' retrieved from /Users/anitharaj/retail-data-engineering-platform/airflow/dags/retail_data_pipeline.py
+[2026-07-13T16:59:49.563-0400] {logging_mixin.py:190} INFO - [2026-07-13T16:59:49.563-0400] {dag.py:3239} INFO - Sync 1 DAGs
+[2026-07-13T16:59:49.573-0400] {logging_mixin.py:190} INFO - [2026-07-13T16:59:49.573-0400] {dag.py:4180} INFO - Setting next_dagrun for retail_data_pipeline to 2026-07-13 00:00:00+00:00, run_after=2026-07-14 00:00:00+00:00
+[2026-07-13T16:59:49.582-0400] {processor.py:208} INFO - Processing /Users/anitharaj/retail-data-engineering-platform/airflow/dags/retail_data_pipeline.py took 0.094 seconds
+[2026-07-13T17:00:21.112-0400] {processor.py:186} INFO - Started process (PID=83345) to work on /Users/anitharaj/retail-data-engineering-platform/airflow/dags/retail_data_pipeline.py
+[2026-07-13T17:00:21.115-0400] {processor.py:914} INFO - Processing file /Users/anitharaj/retail-data-engineering-platform/airflow/dags/retail_data_pipeline.py for tasks to queue
+[2026-07-13T17:00:21.116-0400] {logging_mixin.py:190} INFO - [2026-07-13T17:00:21.116-0400] {dagbag.py:588} INFO - Filling up the DagBag from /Users/anitharaj/retail-data-engineering-platform/airflow/dags/retail_data_pipeline.py
+[2026-07-13T17:00:21.124-0400] {processor.py:925} INFO - DAG(s) 'retail_data_pipeline' retrieved from /Users/anitharaj/retail-data-engineering-platform/airflow/dags/retail_data_pipeline.py
+[2026-07-13T17:00:21.187-0400] {logging_mixin.py:190} INFO - [2026-07-13T17:00:21.187-0400] {dag.py:3239} INFO - Sync 1 DAGs
+[2026-07-13T17:00:21.199-0400] {logging_mixin.py:190} INFO - [2026-07-13T17:00:21.199-0400] {dag.py:4180} INFO - Setting next_dagrun for retail_data_pipeline to 2026-07-13 00:00:00+00:00, run_after=2026-07-14 00:00:00+00:00
+[2026-07-13T17:00:21.209-0400] {processor.py:208} INFO - Processing /Users/anitharaj/retail-data-engineering-platform/airflow/dags/retail_data_pipeline.py took 0.099 seconds
+[2026-07-13T17:00:52.757-0400] {processor.py:186} INFO - Started process (PID=83350) to work on /Users/anitharaj/retail-data-engineering-platform/airflow/dags/retail_data_pipeline.py
+[2026-07-13T17:00:52.761-0400] {processor.py:914} INFO - Processing file /Users/anitharaj/retail-data-engineering-platform/airflow/dags/retail_data_pipeline.py for tasks to queue
+[2026-07-13T17:00:52.761-0400] {logging_mixin.py:190} INFO - [2026-07-13T17:00:52.761-0400] {dagbag.py:588} INFO - Filling up the DagBag from /Users/anitharaj/retail-data-engineering-platform/airflow/dags/retail_data_pipeline.py
+[2026-07-13T17:00:52.771-0400] {processor.py:925} INFO - DAG(s) 'retail_data_pipeline' retrieved from /Users/anitharaj/retail-data-engineering-platform/airflow/dags/retail_data_pipeline.py
+[2026-07-13T17:00:52.838-0400] {logging_mixin.py:190} INFO - [2026-07-13T17:00:52.838-0400] {dag.py:3239} INFO - Sync 1 DAGs
+[2026-07-13T17:00:52.852-0400] {logging_mixin.py:190} INFO - [2026-07-13T17:00:52.851-0400] {dag.py:4180} INFO - Setting next_dagrun for retail_data_pipeline to 2026-07-13 00:00:00+00:00, run_after=2026-07-14 00:00:00+00:00
+[2026-07-13T17:00:52.862-0400] {processor.py:208} INFO - Processing /Users/anitharaj/retail-data-engineering-platform/airflow/dags/retail_data_pipeline.py took 0.107 seconds
+[2026-07-13T17:01:24.123-0400] {processor.py:186} INFO - Started process (PID=83356) to work on /Users/anitharaj/retail-data-engineering-platform/airflow/dags/retail_data_pipeline.py
+[2026-07-13T17:01:24.126-0400] {processor.py:914} INFO - Processing file /Users/anitharaj/retail-data-engineering-platform/airflow/dags/retail_data_pipeline.py for tasks to queue
+[2026-07-13T17:01:24.126-0400] {logging_mixin.py:190} INFO - [2026-07-13T17:01:24.126-0400] {dagbag.py:588} INFO - Filling up the DagBag from /Users/anitharaj/retail-data-engineering-platform/airflow/dags/retail_data_pipeline.py
+[2026-07-13T17:01:24.133-0400] {processor.py:925} INFO - DAG(s) 'retail_data_pipeline' retrieved from /Users/anitharaj/retail-data-engineering-platform/airflow/dags/retail_data_pipeline.py
+[2026-07-13T17:01:24.194-0400] {logging_mixin.py:190} INFO - [2026-07-13T17:01:24.194-0400] {dag.py:3239} INFO - Sync 1 DAGs
+[2026-07-13T17:01:24.204-0400] {logging_mixin.py:190} INFO - [2026-07-13T17:01:24.204-0400] {dag.py:4180} INFO - Setting next_dagrun for retail_data_pipeline to 2026-07-13 00:00:00+00:00, run_after=2026-07-14 00:00:00+00:00
+[2026-07-13T17:01:24.213-0400] {processor.py:208} INFO - Processing /Users/anitharaj/retail-data-engineering-platform/airflow/dags/retail_data_pipeline.py took 0.092 seconds
+[2026-07-13T17:01:55.442-0400] {processor.py:186} INFO - Started process (PID=83426) to work on /Users/anitharaj/retail-data-engineering-platform/airflow/dags/retail_data_pipeline.py
+[2026-07-13T17:01:55.445-0400] {processor.py:914} INFO - Processing file /Users/anitharaj/retail-data-engineering-platform/airflow/dags/retail_data_pipeline.py for tasks to queue
+[2026-07-13T17:01:55.446-0400] {logging_mixin.py:190} INFO - [2026-07-13T17:01:55.446-0400] {dagbag.py:588} INFO - Filling up the DagBag from /Users/anitharaj/retail-data-engineering-platform/airflow/dags/retail_data_pipeline.py
+[2026-07-13T17:01:55.453-0400] {processor.py:925} INFO - DAG(s) 'retail_data_pipeline' retrieved from /Users/anitharaj/retail-data-engineering-platform/airflow/dags/retail_data_pipeline.py
+[2026-07-13T17:01:55.517-0400] {logging_mixin.py:190} INFO - [2026-07-13T17:01:55.516-0400] {dag.py:3239} INFO - Sync 1 DAGs
+[2026-07-13T17:01:55.527-0400] {logging_mixin.py:190} INFO - [2026-07-13T17:01:55.527-0400] {dag.py:4180} INFO - Setting next_dagrun for retail_data_pipeline to 2026-07-13 00:00:00+00:00, run_after=2026-07-14 00:00:00+00:00
+[2026-07-13T17:01:55.536-0400] {processor.py:208} INFO - Processing /Users/anitharaj/retail-data-engineering-platform/airflow/dags/retail_data_pipeline.py took 0.096 seconds
+[2026-07-13T17:02:27.304-0400] {processor.py:186} INFO - Started process (PID=83501) to work on /Users/anitharaj/retail-data-engineering-platform/airflow/dags/retail_data_pipeline.py
+[2026-07-13T17:02:27.307-0400] {processor.py:914} INFO - Processing file /Users/anitharaj/retail-data-engineering-platform/airflow/dags/retail_data_pipeline.py for tasks to queue
+[2026-07-13T17:02:27.307-0400] {logging_mixin.py:190} INFO - [2026-07-13T17:02:27.307-0400] {dagbag.py:588} INFO - Filling up the DagBag from /Users/anitharaj/retail-data-engineering-platform/airflow/dags/retail_data_pipeline.py
+[2026-07-13T17:02:27.314-0400] {processor.py:925} INFO - DAG(s) 'retail_data_pipeline' retrieved from /Users/anitharaj/retail-data-engineering-platform/airflow/dags/retail_data_pipeline.py
+[2026-07-13T17:02:27.378-0400] {logging_mixin.py:190} INFO - [2026-07-13T17:02:27.378-0400] {dag.py:3239} INFO - Sync 1 DAGs
+[2026-07-13T17:02:27.389-0400] {logging_mixin.py:190} INFO - [2026-07-13T17:02:27.389-0400] {dag.py:4180} INFO - Setting next_dagrun for retail_data_pipeline to 2026-07-13 00:00:00+00:00, run_after=2026-07-14 00:00:00+00:00
+[2026-07-13T17:02:27.398-0400] {processor.py:208} INFO - Processing /Users/anitharaj/retail-data-engineering-platform/airflow/dags/retail_data_pipeline.py took 0.096 seconds
+[2026-07-13T17:02:59.744-0400] {processor.py:186} INFO - Started process (PID=83574) to work on /Users/anitharaj/retail-data-engineering-platform/airflow/dags/retail_data_pipeline.py
+[2026-07-13T17:02:59.746-0400] {processor.py:914} INFO - Processing file /Users/anitharaj/retail-data-engineering-platform/airflow/dags/retail_data_pipeline.py for tasks to queue
+[2026-07-13T17:02:59.747-0400] {logging_mixin.py:190} INFO - [2026-07-13T17:02:59.747-0400] {dagbag.py:588} INFO - Filling up the DagBag from /Users/anitharaj/retail-data-engineering-platform/airflow/dags/retail_data_pipeline.py
+[2026-07-13T17:02:59.754-0400] {processor.py:925} INFO - DAG(s) 'retail_data_pipeline' retrieved from /Users/anitharaj/retail-data-engineering-platform/airflow/dags/retail_data_pipeline.py
+[2026-07-13T17:02:59.823-0400] {logging_mixin.py:190} INFO - [2026-07-13T17:02:59.823-0400] {dag.py:3239} INFO - Sync 1 DAGs
+[2026-07-13T17:02:59.834-0400] {logging_mixin.py:190} INFO - [2026-07-13T17:02:59.833-0400] {dag.py:4180} INFO - Setting next_dagrun for retail_data_pipeline to 2026-07-13 00:00:00+00:00, run_after=2026-07-14 00:00:00+00:00
+[2026-07-13T17:02:59.843-0400] {processor.py:208} INFO - Processing /Users/anitharaj/retail-data-engineering-platform/airflow/dags/retail_data_pipeline.py took 0.102 seconds
+[2026-07-13T17:03:31.244-0400] {processor.py:186} INFO - Started process (PID=83649) to work on /Users/anitharaj/retail-data-engineering-platform/airflow/dags/retail_data_pipeline.py
+[2026-07-13T17:03:31.247-0400] {processor.py:914} INFO - Processing file /Users/anitharaj/retail-data-engineering-platform/airflow/dags/retail_data_pipeline.py for tasks to queue
+[2026-07-13T17:03:31.247-0400] {logging_mixin.py:190} INFO - [2026-07-13T17:03:31.247-0400] {dagbag.py:588} INFO - Filling up the DagBag from /Users/anitharaj/retail-data-engineering-platform/airflow/dags/retail_data_pipeline.py
+[2026-07-13T17:03:31.254-0400] {processor.py:925} INFO - DAG(s) 'retail_data_pipeline' retrieved from /Users/anitharaj/retail-data-engineering-platform/airflow/dags/retail_data_pipeline.py
+[2026-07-13T17:03:31.317-0400] {logging_mixin.py:190} INFO - [2026-07-13T17:03:31.317-0400] {dag.py:3239} INFO - Sync 1 DAGs
+[2026-07-13T17:03:31.327-0400] {logging_mixin.py:190} INFO - [2026-07-13T17:03:31.327-0400] {dag.py:4180} INFO - Setting next_dagrun for retail_data_pipeline to 2026-07-13 00:00:00+00:00, run_after=2026-07-14 00:00:00+00:00
+[2026-07-13T17:03:31.336-0400] {processor.py:208} INFO - Processing /Users/anitharaj/retail-data-engineering-platform/airflow/dags/retail_data_pipeline.py took 0.094 seconds
+[2026-07-13T17:04:02.781-0400] {processor.py:186} INFO - Started process (PID=83666) to work on /Users/anitharaj/retail-data-engineering-platform/airflow/dags/retail_data_pipeline.py
+[2026-07-13T17:04:02.783-0400] {processor.py:914} INFO - Processing file /Users/anitharaj/retail-data-engineering-platform/airflow/dags/retail_data_pipeline.py for tasks to queue
+[2026-07-13T17:04:02.784-0400] {logging_mixin.py:190} INFO - [2026-07-13T17:04:02.784-0400] {dagbag.py:588} INFO - Filling up the DagBag from /Users/anitharaj/retail-data-engineering-platform/airflow/dags/retail_data_pipeline.py
+[2026-07-13T17:04:02.791-0400] {processor.py:925} INFO - DAG(s) 'retail_data_pipeline' retrieved from /Users/anitharaj/retail-data-engineering-platform/airflow/dags/retail_data_pipeline.py
+[2026-07-13T17:04:02.856-0400] {logging_mixin.py:190} INFO - [2026-07-13T17:04:02.856-0400] {dag.py:3239} INFO - Sync 1 DAGs
+[2026-07-13T17:04:02.867-0400] {logging_mixin.py:190} INFO - [2026-07-13T17:04:02.867-0400] {dag.py:4180} INFO - Setting next_dagrun for retail_data_pipeline to 2026-07-13 00:00:00+00:00, run_after=2026-07-14 00:00:00+00:00
+[2026-07-13T17:04:02.876-0400] {processor.py:208} INFO - Processing /Users/anitharaj/retail-data-engineering-platform/airflow/dags/retail_data_pipeline.py took 0.097 seconds
+[2026-07-13T17:04:34.448-0400] {processor.py:186} INFO - Started process (PID=83686) to work on /Users/anitharaj/retail-data-engineering-platform/airflow/dags/retail_data_pipeline.py
+[2026-07-13T17:04:34.450-0400] {processor.py:914} INFO - Processing file /Users/anitharaj/retail-data-engineering-platform/airflow/dags/retail_data_pipeline.py for tasks to queue
+[2026-07-13T17:04:34.451-0400] {logging_mixin.py:190} INFO - [2026-07-13T17:04:34.451-0400] {dagbag.py:588} INFO - Filling up the DagBag from /Users/anitharaj/retail-data-engineering-platform/airflow/dags/retail_data_pipeline.py
+[2026-07-13T17:04:34.459-0400] {processor.py:925} INFO - DAG(s) 'retail_data_pipeline' retrieved from /Users/anitharaj/retail-data-engineering-platform/airflow/dags/retail_data_pipeline.py
+[2026-07-13T17:04:34.521-0400] {logging_mixin.py:190} INFO - [2026-07-13T17:04:34.521-0400] {dag.py:3239} INFO - Sync 1 DAGs
+[2026-07-13T17:04:34.532-0400] {logging_mixin.py:190} INFO - [2026-07-13T17:04:34.532-0400] {dag.py:4180} INFO - Setting next_dagrun for retail_data_pipeline to 2026-07-13 00:00:00+00:00, run_after=2026-07-14 00:00:00+00:00
+[2026-07-13T17:04:34.541-0400] {processor.py:208} INFO - Processing /Users/anitharaj/retail-data-engineering-platform/airflow/dags/retail_data_pipeline.py took 0.096 seconds
+[2026-07-13T17:05:06.159-0400] {processor.py:186} INFO - Started process (PID=83729) to work on /Users/anitharaj/retail-data-engineering-platform/airflow/dags/retail_data_pipeline.py
+[2026-07-13T17:05:06.162-0400] {processor.py:914} INFO - Processing file /Users/anitharaj/retail-data-engineering-platform/airflow/dags/retail_data_pipeline.py for tasks to queue
+[2026-07-13T17:05:06.162-0400] {logging_mixin.py:190} INFO - [2026-07-13T17:05:06.162-0400] {dagbag.py:588} INFO - Filling up the DagBag from /Users/anitharaj/retail-data-engineering-platform/airflow/dags/retail_data_pipeline.py
+[2026-07-13T17:05:06.171-0400] {processor.py:925} INFO - DAG(s) 'retail_data_pipeline' retrieved from /Users/anitharaj/retail-data-engineering-platform/airflow/dags/retail_data_pipeline.py
+[2026-07-13T17:05:06.234-0400] {logging_mixin.py:190} INFO - [2026-07-13T17:05:06.234-0400] {dag.py:3239} INFO - Sync 1 DAGs
+[2026-07-13T17:05:06.245-0400] {logging_mixin.py:190} INFO - [2026-07-13T17:05:06.245-0400] {dag.py:4180} INFO - Setting next_dagrun for retail_data_pipeline to 2026-07-13 00:00:00+00:00, run_after=2026-07-14 00:00:00+00:00
+[2026-07-13T17:05:06.254-0400] {processor.py:208} INFO - Processing /Users/anitharaj/retail-data-engineering-platform/airflow/dags/retail_data_pipeline.py took 0.096 seconds
+[2026-07-13T17:05:37.518-0400] {processor.py:186} INFO - Started process (PID=83803) to work on /Users/anitharaj/retail-data-engineering-platform/airflow/dags/retail_data_pipeline.py
+[2026-07-13T17:05:37.521-0400] {processor.py:914} INFO - Processing file /Users/anitharaj/retail-data-engineering-platform/airflow/dags/retail_data_pipeline.py for tasks to queue
+[2026-07-13T17:05:37.522-0400] {logging_mixin.py:190} INFO - [2026-07-13T17:05:37.522-0400] {dagbag.py:588} INFO - Filling up the DagBag from /Users/anitharaj/retail-data-engineering-platform/airflow/dags/retail_data_pipeline.py
+[2026-07-13T17:05:37.529-0400] {processor.py:925} INFO - DAG(s) 'retail_data_pipeline' retrieved from /Users/anitharaj/retail-data-engineering-platform/airflow/dags/retail_data_pipeline.py
+[2026-07-13T17:05:37.597-0400] {logging_mixin.py:190} INFO - [2026-07-13T17:05:37.597-0400] {dag.py:3239} INFO - Sync 1 DAGs
+[2026-07-13T17:05:37.608-0400] {logging_mixin.py:190} INFO - [2026-07-13T17:05:37.608-0400] {dag.py:4180} INFO - Setting next_dagrun for retail_data_pipeline to 2026-07-13 00:00:00+00:00, run_after=2026-07-14 00:00:00+00:00
+[2026-07-13T17:05:37.617-0400] {processor.py:208} INFO - Processing /Users/anitharaj/retail-data-engineering-platform/airflow/dags/retail_data_pipeline.py took 0.101 seconds
+[2026-07-13T17:06:08.893-0400] {processor.py:186} INFO - Started process (PID=83810) to work on /Users/anitharaj/retail-data-engineering-platform/airflow/dags/retail_data_pipeline.py
+[2026-07-13T17:06:08.896-0400] {processor.py:914} INFO - Processing file /Users/anitharaj/retail-data-engineering-platform/airflow/dags/retail_data_pipeline.py for tasks to queue
+[2026-07-13T17:06:08.896-0400] {logging_mixin.py:190} INFO - [2026-07-13T17:06:08.896-0400] {dagbag.py:588} INFO - Filling up the DagBag from /Users/anitharaj/retail-data-engineering-platform/airflow/dags/retail_data_pipeline.py
+[2026-07-13T17:06:08.903-0400] {processor.py:925} INFO - DAG(s) 'retail_data_pipeline' retrieved from /Users/anitharaj/retail-data-engineering-platform/airflow/dags/retail_data_pipeline.py
+[2026-07-13T17:06:08.970-0400] {logging_mixin.py:190} INFO - [2026-07-13T17:06:08.970-0400] {dag.py:3239} INFO - Sync 1 DAGs
+[2026-07-13T17:06:08.981-0400] {logging_mixin.py:190} INFO - [2026-07-13T17:06:08.981-0400] {dag.py:4180} INFO - Setting next_dagrun for retail_data_pipeline to 2026-07-13 00:00:00+00:00, run_after=2026-07-14 00:00:00+00:00
+[2026-07-13T17:06:08.991-0400] {processor.py:208} INFO - Processing /Users/anitharaj/retail-data-engineering-platform/airflow/dags/retail_data_pipeline.py took 0.100 seconds
+[2026-07-13T17:06:40.710-0400] {processor.py:186} INFO - Started process (PID=83817) to work on /Users/anitharaj/retail-data-engineering-platform/airflow/dags/retail_data_pipeline.py
+[2026-07-13T17:06:40.714-0400] {processor.py:914} INFO - Processing file /Users/anitharaj/retail-data-engineering-platform/airflow/dags/retail_data_pipeline.py for tasks to queue
+[2026-07-13T17:06:40.715-0400] {logging_mixin.py:190} INFO - [2026-07-13T17:06:40.715-0400] {dagbag.py:588} INFO - Filling up the DagBag from /Users/anitharaj/retail-data-engineering-platform/airflow/dags/retail_data_pipeline.py
+[2026-07-13T17:06:40.724-0400] {processor.py:925} INFO - DAG(s) 'retail_data_pipeline' retrieved from /Users/anitharaj/retail-data-engineering-platform/airflow/dags/retail_data_pipeline.py
+[2026-07-13T17:06:40.787-0400] {logging_mixin.py:190} INFO - [2026-07-13T17:06:40.787-0400] {dag.py:3239} INFO - Sync 1 DAGs
+[2026-07-13T17:06:40.799-0400] {logging_mixin.py:190} INFO - [2026-07-13T17:06:40.799-0400] {dag.py:4180} INFO - Setting next_dagrun for retail_data_pipeline to 2026-07-13 00:00:00+00:00, run_after=2026-07-14 00:00:00+00:00
+[2026-07-13T17:06:40.808-0400] {processor.py:208} INFO - Processing /Users/anitharaj/retail-data-engineering-platform/airflow/dags/retail_data_pipeline.py took 0.100 seconds
+[2026-07-13T17:07:12.065-0400] {processor.py:186} INFO - Started process (PID=83837) to work on /Users/anitharaj/retail-data-engineering-platform/airflow/dags/retail_data_pipeline.py
+[2026-07-13T17:07:12.068-0400] {processor.py:914} INFO - Processing file /Users/anitharaj/retail-data-engineering-platform/airflow/dags/retail_data_pipeline.py for tasks to queue
+[2026-07-13T17:07:12.069-0400] {logging_mixin.py:190} INFO - [2026-07-13T17:07:12.068-0400] {dagbag.py:588} INFO - Filling up the DagBag from /Users/anitharaj/retail-data-engineering-platform/airflow/dags/retail_data_pipeline.py
+[2026-07-13T17:07:12.075-0400] {processor.py:925} INFO - DAG(s) 'retail_data_pipeline' retrieved from /Users/anitharaj/retail-data-engineering-platform/airflow/dags/retail_data_pipeline.py
+[2026-07-13T17:07:12.137-0400] {logging_mixin.py:190} INFO - [2026-07-13T17:07:12.137-0400] {dag.py:3239} INFO - Sync 1 DAGs
+[2026-07-13T17:07:12.148-0400] {logging_mixin.py:190} INFO - [2026-07-13T17:07:12.148-0400] {dag.py:4180} INFO - Setting next_dagrun for retail_data_pipeline to 2026-07-13 00:00:00+00:00, run_after=2026-07-14 00:00:00+00:00
+[2026-07-13T17:07:12.157-0400] {processor.py:208} INFO - Processing /Users/anitharaj/retail-data-engineering-platform/airflow/dags/retail_data_pipeline.py took 0.093 seconds
+[2026-07-13T17:07:43.684-0400] {processor.py:186} INFO - Started process (PID=83843) to work on /Users/anitharaj/retail-data-engineering-platform/airflow/dags/retail_data_pipeline.py
+[2026-07-13T17:07:43.686-0400] {processor.py:914} INFO - Processing file /Users/anitharaj/retail-data-engineering-platform/airflow/dags/retail_data_pipeline.py for tasks to queue
+[2026-07-13T17:07:43.687-0400] {logging_mixin.py:190} INFO - [2026-07-13T17:07:43.686-0400] {dagbag.py:588} INFO - Filling up the DagBag from /Users/anitharaj/retail-data-engineering-platform/airflow/dags/retail_data_pipeline.py
+[2026-07-13T17:07:43.695-0400] {processor.py:925} INFO - DAG(s) 'retail_data_pipeline' retrieved from /Users/anitharaj/retail-data-engineering-platform/airflow/dags/retail_data_pipeline.py
+[2026-07-13T17:07:43.760-0400] {logging_mixin.py:190} INFO - [2026-07-13T17:07:43.759-0400] {dag.py:3239} INFO - Sync 1 DAGs
+[2026-07-13T17:07:43.772-0400] {logging_mixin.py:190} INFO - [2026-07-13T17:07:43.771-0400] {dag.py:4180} INFO - Setting next_dagrun for retail_data_pipeline to 2026-07-13 00:00:00+00:00, run_after=2026-07-14 00:00:00+00:00
+[2026-07-13T17:07:43.780-0400] {processor.py:208} INFO - Processing /Users/anitharaj/retail-data-engineering-platform/airflow/dags/retail_data_pipeline.py took 0.099 seconds
+[2026-07-13T17:08:15.030-0400] {processor.py:186} INFO - Started process (PID=83891) to work on /Users/anitharaj/retail-data-engineering-platform/airflow/dags/retail_data_pipeline.py
+[2026-07-13T17:08:15.033-0400] {processor.py:914} INFO - Processing file /Users/anitharaj/retail-data-engineering-platform/airflow/dags/retail_data_pipeline.py for tasks to queue
+[2026-07-13T17:08:15.034-0400] {logging_mixin.py:190} INFO - [2026-07-13T17:08:15.034-0400] {dagbag.py:588} INFO - Filling up the DagBag from /Users/anitharaj/retail-data-engineering-platform/airflow/dags/retail_data_pipeline.py
+[2026-07-13T17:08:15.041-0400] {processor.py:925} INFO - DAG(s) 'retail_data_pipeline' retrieved from /Users/anitharaj/retail-data-engineering-platform/airflow/dags/retail_data_pipeline.py
+[2026-07-13T17:08:15.104-0400] {logging_mixin.py:190} INFO - [2026-07-13T17:08:15.104-0400] {dag.py:3239} INFO - Sync 1 DAGs
+[2026-07-13T17:08:15.115-0400] {logging_mixin.py:190} INFO - [2026-07-13T17:08:15.115-0400] {dag.py:4180} INFO - Setting next_dagrun for retail_data_pipeline to 2026-07-13 00:00:00+00:00, run_after=2026-07-14 00:00:00+00:00
+[2026-07-13T17:08:15.124-0400] {processor.py:208} INFO - Processing /Users/anitharaj/retail-data-engineering-platform/airflow/dags/retail_data_pipeline.py took 0.097 seconds
+[2026-07-13T17:08:46.403-0400] {processor.py:186} INFO - Started process (PID=83896) to work on /Users/anitharaj/retail-data-engineering-platform/airflow/dags/retail_data_pipeline.py
+[2026-07-13T17:08:46.406-0400] {processor.py:914} INFO - Processing file /Users/anitharaj/retail-data-engineering-platform/airflow/dags/retail_data_pipeline.py for tasks to queue
+[2026-07-13T17:08:46.406-0400] {logging_mixin.py:190} INFO - [2026-07-13T17:08:46.406-0400] {dagbag.py:588} INFO - Filling up the DagBag from /Users/anitharaj/retail-data-engineering-platform/airflow/dags/retail_data_pipeline.py
+[2026-07-13T17:08:46.419-0400] {processor.py:925} INFO - DAG(s) 'retail_data_pipeline' retrieved from /Users/anitharaj/retail-data-engineering-platform/airflow/dags/retail_data_pipeline.py
+[2026-07-13T17:08:46.491-0400] {logging_mixin.py:190} INFO - [2026-07-13T17:08:46.491-0400] {dag.py:3239} INFO - Sync 1 DAGs
+[2026-07-13T17:08:46.503-0400] {logging_mixin.py:190} INFO - [2026-07-13T17:08:46.503-0400] {dag.py:4180} INFO - Setting next_dagrun for retail_data_pipeline to 2026-07-13 00:00:00+00:00, run_after=2026-07-14 00:00:00+00:00
+[2026-07-13T17:08:46.512-0400] {processor.py:208} INFO - Processing /Users/anitharaj/retail-data-engineering-platform/airflow/dags/retail_data_pipeline.py took 0.112 seconds
+[2026-07-13T17:09:18.148-0400] {processor.py:186} INFO - Started process (PID=83903) to work on /Users/anitharaj/retail-data-engineering-platform/airflow/dags/retail_data_pipeline.py
+[2026-07-13T17:09:18.151-0400] {processor.py:914} INFO - Processing file /Users/anitharaj/retail-data-engineering-platform/airflow/dags/retail_data_pipeline.py for tasks to queue
+[2026-07-13T17:09:18.152-0400] {logging_mixin.py:190} INFO - [2026-07-13T17:09:18.152-0400] {dagbag.py:588} INFO - Filling up the DagBag from /Users/anitharaj/retail-data-engineering-platform/airflow/dags/retail_data_pipeline.py
+[2026-07-13T17:09:18.160-0400] {processor.py:925} INFO - DAG(s) 'retail_data_pipeline' retrieved from /Users/anitharaj/retail-data-engineering-platform/airflow/dags/retail_data_pipeline.py
+[2026-07-13T17:09:18.223-0400] {logging_mixin.py:190} INFO - [2026-07-13T17:09:18.223-0400] {dag.py:3239} INFO - Sync 1 DAGs
+[2026-07-13T17:09:18.233-0400] {logging_mixin.py:190} INFO - [2026-07-13T17:09:18.233-0400] {dag.py:4180} INFO - Setting next_dagrun for retail_data_pipeline to 2026-07-13 00:00:00+00:00, run_after=2026-07-14 00:00:00+00:00
+[2026-07-13T17:09:18.242-0400] {processor.py:208} INFO - Processing /Users/anitharaj/retail-data-engineering-platform/airflow/dags/retail_data_pipeline.py took 0.096 seconds
+[2026-07-13T17:09:49.557-0400] {processor.py:186} INFO - Started process (PID=83975) to work on /Users/anitharaj/retail-data-engineering-platform/airflow/dags/retail_data_pipeline.py
+[2026-07-13T17:09:49.559-0400] {processor.py:914} INFO - Processing file /Users/anitharaj/retail-data-engineering-platform/airflow/dags/retail_data_pipeline.py for tasks to queue
+[2026-07-13T17:09:49.560-0400] {logging_mixin.py:190} INFO - [2026-07-13T17:09:49.560-0400] {dagbag.py:588} INFO - Filling up the DagBag from /Users/anitharaj/retail-data-engineering-platform/airflow/dags/retail_data_pipeline.py
+[2026-07-13T17:09:49.567-0400] {processor.py:925} INFO - DAG(s) 'retail_data_pipeline' retrieved from /Users/anitharaj/retail-data-engineering-platform/airflow/dags/retail_data_pipeline.py
+[2026-07-13T17:09:49.632-0400] {logging_mixin.py:190} INFO - [2026-07-13T17:09:49.632-0400] {dag.py:3239} INFO - Sync 1 DAGs
+[2026-07-13T17:09:49.642-0400] {logging_mixin.py:190} INFO - [2026-07-13T17:09:49.642-0400] {dag.py:4180} INFO - Setting next_dagrun for retail_data_pipeline to 2026-07-13 00:00:00+00:00, run_after=2026-07-14 00:00:00+00:00
+[2026-07-13T17:09:49.652-0400] {processor.py:208} INFO - Processing /Users/anitharaj/retail-data-engineering-platform/airflow/dags/retail_data_pipeline.py took 0.097 seconds
+[2026-07-13T17:10:20.994-0400] {processor.py:186} INFO - Started process (PID=84002) to work on /Users/anitharaj/retail-data-engineering-platform/airflow/dags/retail_data_pipeline.py
+[2026-07-13T17:10:20.997-0400] {processor.py:914} INFO - Processing file /Users/anitharaj/retail-data-engineering-platform/airflow/dags/retail_data_pipeline.py for tasks to queue
+[2026-07-13T17:10:20.997-0400] {logging_mixin.py:190} INFO - [2026-07-13T17:10:20.997-0400] {dagbag.py:588} INFO - Filling up the DagBag from /Users/anitharaj/retail-data-engineering-platform/airflow/dags/retail_data_pipeline.py
+[2026-07-13T17:10:21.006-0400] {processor.py:925} INFO - DAG(s) 'retail_data_pipeline' retrieved from /Users/anitharaj/retail-data-engineering-platform/airflow/dags/retail_data_pipeline.py
+[2026-07-13T17:10:21.074-0400] {logging_mixin.py:190} INFO - [2026-07-13T17:10:21.073-0400] {dag.py:3239} INFO - Sync 1 DAGs
+[2026-07-13T17:10:21.086-0400] {logging_mixin.py:190} INFO - [2026-07-13T17:10:21.086-0400] {dag.py:4180} INFO - Setting next_dagrun for retail_data_pipeline to 2026-07-13 00:00:00+00:00, run_after=2026-07-14 00:00:00+00:00
+[2026-07-13T17:10:21.095-0400] {processor.py:208} INFO - Processing /Users/anitharaj/retail-data-engineering-platform/airflow/dags/retail_data_pipeline.py took 0.104 seconds
+[2026-07-13T17:10:52.442-0400] {processor.py:186} INFO - Started process (PID=84006) to work on /Users/anitharaj/retail-data-engineering-platform/airflow/dags/retail_data_pipeline.py
+[2026-07-13T17:10:52.445-0400] {processor.py:914} INFO - Processing file /Users/anitharaj/retail-data-engineering-platform/airflow/dags/retail_data_pipeline.py for tasks to queue
+[2026-07-13T17:10:52.446-0400] {logging_mixin.py:190} INFO - [2026-07-13T17:10:52.445-0400] {dagbag.py:588} INFO - Filling up the DagBag from /Users/anitharaj/retail-data-engineering-platform/airflow/dags/retail_data_pipeline.py
+[2026-07-13T17:10:52.452-0400] {processor.py:925} INFO - DAG(s) 'retail_data_pipeline' retrieved from /Users/anitharaj/retail-data-engineering-platform/airflow/dags/retail_data_pipeline.py
+[2026-07-13T17:10:52.513-0400] {logging_mixin.py:190} INFO - [2026-07-13T17:10:52.513-0400] {dag.py:3239} INFO - Sync 1 DAGs
+[2026-07-13T17:10:52.523-0400] {logging_mixin.py:190} INFO - [2026-07-13T17:10:52.523-0400] {dag.py:4180} INFO - Setting next_dagrun for retail_data_pipeline to 2026-07-13 00:00:00+00:00, run_after=2026-07-14 00:00:00+00:00
+[2026-07-13T17:10:52.532-0400] {processor.py:208} INFO - Processing /Users/anitharaj/retail-data-engineering-platform/airflow/dags/retail_data_pipeline.py took 0.092 seconds
+[2026-07-13T17:11:23.867-0400] {processor.py:186} INFO - Started process (PID=84013) to work on /Users/anitharaj/retail-data-engineering-platform/airflow/dags/retail_data_pipeline.py
+[2026-07-13T17:11:23.869-0400] {processor.py:914} INFO - Processing file /Users/anitharaj/retail-data-engineering-platform/airflow/dags/retail_data_pipeline.py for tasks to queue
+[2026-07-13T17:11:23.870-0400] {logging_mixin.py:190} INFO - [2026-07-13T17:11:23.870-0400] {dagbag.py:588} INFO - Filling up the DagBag from /Users/anitharaj/retail-data-engineering-platform/airflow/dags/retail_data_pipeline.py
+[2026-07-13T17:11:23.876-0400] {processor.py:925} INFO - DAG(s) 'retail_data_pipeline' retrieved from /Users/anitharaj/retail-data-engineering-platform/airflow/dags/retail_data_pipeline.py
+[2026-07-13T17:11:23.938-0400] {logging_mixin.py:190} INFO - [2026-07-13T17:11:23.938-0400] {dag.py:3239} INFO - Sync 1 DAGs
+[2026-07-13T17:11:23.948-0400] {logging_mixin.py:190} INFO - [2026-07-13T17:11:23.948-0400] {dag.py:4180} INFO - Setting next_dagrun for retail_data_pipeline to 2026-07-13 00:00:00+00:00, run_after=2026-07-14 00:00:00+00:00
+[2026-07-13T17:11:23.957-0400] {processor.py:208} INFO - Processing /Users/anitharaj/retail-data-engineering-platform/airflow/dags/retail_data_pipeline.py took 0.092 seconds
+[2026-07-13T17:11:55.334-0400] {processor.py:186} INFO - Started process (PID=84019) to work on /Users/anitharaj/retail-data-engineering-platform/airflow/dags/retail_data_pipeline.py
+[2026-07-13T17:11:55.336-0400] {processor.py:914} INFO - Processing file /Users/anitharaj/retail-data-engineering-platform/airflow/dags/retail_data_pipeline.py for tasks to queue
+[2026-07-13T17:11:55.337-0400] {logging_mixin.py:190} INFO - [2026-07-13T17:11:55.337-0400] {dagbag.py:588} INFO - Filling up the DagBag from /Users/anitharaj/retail-data-engineering-platform/airflow/dags/retail_data_pipeline.py
+[2026-07-13T17:11:55.344-0400] {processor.py:925} INFO - DAG(s) 'retail_data_pipeline' retrieved from /Users/anitharaj/retail-data-engineering-platform/airflow/dags/retail_data_pipeline.py
+[2026-07-13T17:11:55.404-0400] {logging_mixin.py:190} INFO - [2026-07-13T17:11:55.404-0400] {dag.py:3239} INFO - Sync 1 DAGs
+[2026-07-13T17:11:55.416-0400] {logging_mixin.py:190} INFO - [2026-07-13T17:11:55.416-0400] {dag.py:4180} INFO - Setting next_dagrun for retail_data_pipeline to 2026-07-13 00:00:00+00:00, run_after=2026-07-14 00:00:00+00:00
+[2026-07-13T17:11:55.425-0400] {processor.py:208} INFO - Processing /Users/anitharaj/retail-data-engineering-platform/airflow/dags/retail_data_pipeline.py took 0.093 seconds
+[2026-07-13T17:12:26.966-0400] {processor.py:186} INFO - Started process (PID=84027) to work on /Users/anitharaj/retail-data-engineering-platform/airflow/dags/retail_data_pipeline.py
+[2026-07-13T17:12:26.969-0400] {processor.py:914} INFO - Processing file /Users/anitharaj/retail-data-engineering-platform/airflow/dags/retail_data_pipeline.py for tasks to queue
+[2026-07-13T17:12:26.970-0400] {logging_mixin.py:190} INFO - [2026-07-13T17:12:26.970-0400] {dagbag.py:588} INFO - Filling up the DagBag from /Users/anitharaj/retail-data-engineering-platform/airflow/dags/retail_data_pipeline.py
+[2026-07-13T17:12:26.980-0400] {processor.py:925} INFO - DAG(s) 'retail_data_pipeline' retrieved from /Users/anitharaj/retail-data-engineering-platform/airflow/dags/retail_data_pipeline.py
+[2026-07-13T17:12:27.046-0400] {logging_mixin.py:190} INFO - [2026-07-13T17:12:27.046-0400] {dag.py:3239} INFO - Sync 1 DAGs
+[2026-07-13T17:12:27.059-0400] {logging_mixin.py:190} INFO - [2026-07-13T17:12:27.058-0400] {dag.py:4180} INFO - Setting next_dagrun for retail_data_pipeline to 2026-07-13 00:00:00+00:00, run_after=2026-07-14 00:00:00+00:00
+[2026-07-13T17:12:27.068-0400] {processor.py:208} INFO - Processing /Users/anitharaj/retail-data-engineering-platform/airflow/dags/retail_data_pipeline.py took 0.104 seconds
+[2026-07-13T17:12:58.607-0400] {processor.py:186} INFO - Started process (PID=84034) to work on /Users/anitharaj/retail-data-engineering-platform/airflow/dags/retail_data_pipeline.py
+[2026-07-13T17:12:58.610-0400] {processor.py:914} INFO - Processing file /Users/anitharaj/retail-data-engineering-platform/airflow/dags/retail_data_pipeline.py for tasks to queue
+[2026-07-13T17:12:58.611-0400] {logging_mixin.py:190} INFO - [2026-07-13T17:12:58.611-0400] {dagbag.py:588} INFO - Filling up the DagBag from /Users/anitharaj/retail-data-engineering-platform/airflow/dags/retail_data_pipeline.py
+[2026-07-13T17:12:58.619-0400] {processor.py:925} INFO - DAG(s) 'retail_data_pipeline' retrieved from /Users/anitharaj/retail-data-engineering-platform/airflow/dags/retail_data_pipeline.py
+[2026-07-13T17:12:58.683-0400] {logging_mixin.py:190} INFO - [2026-07-13T17:12:58.682-0400] {dag.py:3239} INFO - Sync 1 DAGs
+[2026-07-13T17:12:58.693-0400] {logging_mixin.py:190} INFO - [2026-07-13T17:12:58.693-0400] {dag.py:4180} INFO - Setting next_dagrun for retail_data_pipeline to 2026-07-13 00:00:00+00:00, run_after=2026-07-14 00:00:00+00:00
+[2026-07-13T17:12:58.702-0400] {processor.py:208} INFO - Processing /Users/anitharaj/retail-data-engineering-platform/airflow/dags/retail_data_pipeline.py took 0.097 seconds
+[2026-07-13T17:13:29.965-0400] {processor.py:186} INFO - Started process (PID=84040) to work on /Users/anitharaj/retail-data-engineering-platform/airflow/dags/retail_data_pipeline.py
+[2026-07-13T17:13:29.966-0400] {processor.py:914} INFO - Processing file /Users/anitharaj/retail-data-engineering-platform/airflow/dags/retail_data_pipeline.py for tasks to queue
+[2026-07-13T17:13:29.967-0400] {logging_mixin.py:190} INFO - [2026-07-13T17:13:29.967-0400] {dagbag.py:588} INFO - Filling up the DagBag from /Users/anitharaj/retail-data-engineering-platform/airflow/dags/retail_data_pipeline.py
+[2026-07-13T17:13:29.973-0400] {processor.py:925} INFO - DAG(s) 'retail_data_pipeline' retrieved from /Users/anitharaj/retail-data-engineering-platform/airflow/dags/retail_data_pipeline.py
+[2026-07-13T17:13:30.034-0400] {logging_mixin.py:190} INFO - [2026-07-13T17:13:30.034-0400] {dag.py:3239} INFO - Sync 1 DAGs
+[2026-07-13T17:13:30.044-0400] {logging_mixin.py:190} INFO - [2026-07-13T17:13:30.044-0400] {dag.py:4180} INFO - Setting next_dagrun for retail_data_pipeline to 2026-07-13 00:00:00+00:00, run_after=2026-07-14 00:00:00+00:00
+[2026-07-13T17:13:30.053-0400] {processor.py:208} INFO - Processing /Users/anitharaj/retail-data-engineering-platform/airflow/dags/retail_data_pipeline.py took 0.091 seconds
+[2026-07-13T17:14:01.253-0400] {processor.py:186} INFO - Started process (PID=84045) to work on /Users/anitharaj/retail-data-engineering-platform/airflow/dags/retail_data_pipeline.py
+[2026-07-13T17:14:01.256-0400] {processor.py:914} INFO - Processing file /Users/anitharaj/retail-data-engineering-platform/airflow/dags/retail_data_pipeline.py for tasks to queue
+[2026-07-13T17:14:01.256-0400] {logging_mixin.py:190} INFO - [2026-07-13T17:14:01.256-0400] {dagbag.py:588} INFO - Filling up the DagBag from /Users/anitharaj/retail-data-engineering-platform/airflow/dags/retail_data_pipeline.py
+[2026-07-13T17:14:01.265-0400] {processor.py:925} INFO - DAG(s) 'retail_data_pipeline' retrieved from /Users/anitharaj/retail-data-engineering-platform/airflow/dags/retail_data_pipeline.py
+[2026-07-13T17:14:01.327-0400] {logging_mixin.py:190} INFO - [2026-07-13T17:14:01.327-0400] {dag.py:3239} INFO - Sync 1 DAGs
+[2026-07-13T17:14:01.339-0400] {logging_mixin.py:190} INFO - [2026-07-13T17:14:01.339-0400] {dag.py:4180} INFO - Setting next_dagrun for retail_data_pipeline to 2026-07-13 00:00:00+00:00, run_after=2026-07-14 00:00:00+00:00
+[2026-07-13T17:14:01.348-0400] {processor.py:208} INFO - Processing /Users/anitharaj/retail-data-engineering-platform/airflow/dags/retail_data_pipeline.py took 0.097 seconds
+[2026-07-13T17:14:32.604-0400] {processor.py:186} INFO - Started process (PID=84051) to work on /Users/anitharaj/retail-data-engineering-platform/airflow/dags/retail_data_pipeline.py
+[2026-07-13T17:14:32.607-0400] {processor.py:914} INFO - Processing file /Users/anitharaj/retail-data-engineering-platform/airflow/dags/retail_data_pipeline.py for tasks to queue
+[2026-07-13T17:14:32.608-0400] {logging_mixin.py:190} INFO - [2026-07-13T17:14:32.608-0400] {dagbag.py:588} INFO - Filling up the DagBag from /Users/anitharaj/retail-data-engineering-platform/airflow/dags/retail_data_pipeline.py
+[2026-07-13T17:14:32.616-0400] {processor.py:925} INFO - DAG(s) 'retail_data_pipeline' retrieved from /Users/anitharaj/retail-data-engineering-platform/airflow/dags/retail_data_pipeline.py
+[2026-07-13T17:14:32.679-0400] {logging_mixin.py:190} INFO - [2026-07-13T17:14:32.678-0400] {dag.py:3239} INFO - Sync 1 DAGs
+[2026-07-13T17:14:32.691-0400] {logging_mixin.py:190} INFO - [2026-07-13T17:14:32.690-0400] {dag.py:4180} INFO - Setting next_dagrun for retail_data_pipeline to 2026-07-13 00:00:00+00:00, run_after=2026-07-14 00:00:00+00:00
+[2026-07-13T17:14:32.699-0400] {processor.py:208} INFO - Processing /Users/anitharaj/retail-data-engineering-platform/airflow/dags/retail_data_pipeline.py took 0.097 seconds
+[2026-07-13T17:15:04.145-0400] {processor.py:186} INFO - Started process (PID=84058) to work on /Users/anitharaj/retail-data-engineering-platform/airflow/dags/retail_data_pipeline.py
+[2026-07-13T17:15:04.148-0400] {processor.py:914} INFO - Processing file /Users/anitharaj/retail-data-engineering-platform/airflow/dags/retail_data_pipeline.py for tasks to queue
+[2026-07-13T17:15:04.149-0400] {logging_mixin.py:190} INFO - [2026-07-13T17:15:04.149-0400] {dagbag.py:588} INFO - Filling up the DagBag from /Users/anitharaj/retail-data-engineering-platform/airflow/dags/retail_data_pipeline.py
+[2026-07-13T17:15:04.158-0400] {processor.py:925} INFO - DAG(s) 'retail_data_pipeline' retrieved from /Users/anitharaj/retail-data-engineering-platform/airflow/dags/retail_data_pipeline.py
+[2026-07-13T17:15:04.222-0400] {logging_mixin.py:190} INFO - [2026-07-13T17:15:04.221-0400] {dag.py:3239} INFO - Sync 1 DAGs
+[2026-07-13T17:15:04.232-0400] {logging_mixin.py:190} INFO - [2026-07-13T17:15:04.232-0400] {dag.py:4180} INFO - Setting next_dagrun for retail_data_pipeline to 2026-07-13 00:00:00+00:00, run_after=2026-07-14 00:00:00+00:00
+[2026-07-13T17:15:04.241-0400] {processor.py:208} INFO - Processing /Users/anitharaj/retail-data-engineering-platform/airflow/dags/retail_data_pipeline.py took 0.097 seconds
+[2026-07-13T17:15:35.674-0400] {processor.py:186} INFO - Started process (PID=84065) to work on /Users/anitharaj/retail-data-engineering-platform/airflow/dags/retail_data_pipeline.py
+[2026-07-13T17:15:35.677-0400] {processor.py:914} INFO - Processing file /Users/anitharaj/retail-data-engineering-platform/airflow/dags/retail_data_pipeline.py for tasks to queue
+[2026-07-13T17:15:35.678-0400] {logging_mixin.py:190} INFO - [2026-07-13T17:15:35.677-0400] {dagbag.py:588} INFO - Filling up the DagBag from /Users/anitharaj/retail-data-engineering-platform/airflow/dags/retail_data_pipeline.py
+[2026-07-13T17:15:35.686-0400] {processor.py:925} INFO - DAG(s) 'retail_data_pipeline' retrieved from /Users/anitharaj/retail-data-engineering-platform/airflow/dags/retail_data_pipeline.py
+[2026-07-13T17:15:35.749-0400] {logging_mixin.py:190} INFO - [2026-07-13T17:15:35.748-0400] {dag.py:3239} INFO - Sync 1 DAGs
+[2026-07-13T17:15:35.761-0400] {logging_mixin.py:190} INFO - [2026-07-13T17:15:35.761-0400] {dag.py:4180} INFO - Setting next_dagrun for retail_data_pipeline to 2026-07-13 00:00:00+00:00, run_after=2026-07-14 00:00:00+00:00
+[2026-07-13T17:15:35.770-0400] {processor.py:208} INFO - Processing /Users/anitharaj/retail-data-engineering-platform/airflow/dags/retail_data_pipeline.py took 0.097 seconds
+[2026-07-13T17:16:07.233-0400] {processor.py:186} INFO - Started process (PID=84070) to work on /Users/anitharaj/retail-data-engineering-platform/airflow/dags/retail_data_pipeline.py
+[2026-07-13T17:16:07.236-0400] {processor.py:914} INFO - Processing file /Users/anitharaj/retail-data-engineering-platform/airflow/dags/retail_data_pipeline.py for tasks to queue
+[2026-07-13T17:16:07.236-0400] {logging_mixin.py:190} INFO - [2026-07-13T17:16:07.236-0400] {dagbag.py:588} INFO - Filling up the DagBag from /Users/anitharaj/retail-data-engineering-platform/airflow/dags/retail_data_pipeline.py
+[2026-07-13T17:16:07.245-0400] {processor.py:925} INFO - DAG(s) 'retail_data_pipeline' retrieved from /Users/anitharaj/retail-data-engineering-platform/airflow/dags/retail_data_pipeline.py
+[2026-07-13T17:16:07.307-0400] {logging_mixin.py:190} INFO - [2026-07-13T17:16:07.307-0400] {dag.py:3239} INFO - Sync 1 DAGs
+[2026-07-13T17:16:07.320-0400] {logging_mixin.py:190} INFO - [2026-07-13T17:16:07.319-0400] {dag.py:4180} INFO - Setting next_dagrun for retail_data_pipeline to 2026-07-13 00:00:00+00:00, run_after=2026-07-14 00:00:00+00:00
+[2026-07-13T17:16:07.328-0400] {processor.py:208} INFO - Processing /Users/anitharaj/retail-data-engineering-platform/airflow/dags/retail_data_pipeline.py took 0.098 seconds
+[2026-07-13T17:16:38.796-0400] {processor.py:186} INFO - Started process (PID=84076) to work on /Users/anitharaj/retail-data-engineering-platform/airflow/dags/retail_data_pipeline.py
+[2026-07-13T17:16:38.798-0400] {processor.py:914} INFO - Processing file /Users/anitharaj/retail-data-engineering-platform/airflow/dags/retail_data_pipeline.py for tasks to queue
+[2026-07-13T17:16:38.798-0400] {logging_mixin.py:190} INFO - [2026-07-13T17:16:38.798-0400] {dagbag.py:588} INFO - Filling up the DagBag from /Users/anitharaj/retail-data-engineering-platform/airflow/dags/retail_data_pipeline.py
+[2026-07-13T17:16:38.806-0400] {processor.py:925} INFO - DAG(s) 'retail_data_pipeline' retrieved from /Users/anitharaj/retail-data-engineering-platform/airflow/dags/retail_data_pipeline.py
+[2026-07-13T17:16:38.869-0400] {logging_mixin.py:190} INFO - [2026-07-13T17:16:38.868-0400] {dag.py:3239} INFO - Sync 1 DAGs
+[2026-07-13T17:16:38.880-0400] {logging_mixin.py:190} INFO - [2026-07-13T17:16:38.880-0400] {dag.py:4180} INFO - Setting next_dagrun for retail_data_pipeline to 2026-07-13 00:00:00+00:00, run_after=2026-07-14 00:00:00+00:00
+[2026-07-13T17:16:38.889-0400] {processor.py:208} INFO - Processing /Users/anitharaj/retail-data-engineering-platform/airflow/dags/retail_data_pipeline.py took 0.096 seconds
+[2026-07-13T17:17:10.074-0400] {processor.py:186} INFO - Started process (PID=84088) to work on /Users/anitharaj/retail-data-engineering-platform/airflow/dags/retail_data_pipeline.py
+[2026-07-13T17:17:10.077-0400] {processor.py:914} INFO - Processing file /Users/anitharaj/retail-data-engineering-platform/airflow/dags/retail_data_pipeline.py for tasks to queue
+[2026-07-13T17:17:10.077-0400] {logging_mixin.py:190} INFO - [2026-07-13T17:17:10.077-0400] {dagbag.py:588} INFO - Filling up the DagBag from /Users/anitharaj/retail-data-engineering-platform/airflow/dags/retail_data_pipeline.py
+[2026-07-13T17:17:10.086-0400] {processor.py:925} INFO - DAG(s) 'retail_data_pipeline' retrieved from /Users/anitharaj/retail-data-engineering-platform/airflow/dags/retail_data_pipeline.py
+[2026-07-13T17:17:10.154-0400] {logging_mixin.py:190} INFO - [2026-07-13T17:17:10.154-0400] {dag.py:3239} INFO - Sync 1 DAGs
+[2026-07-13T17:17:10.165-0400] {logging_mixin.py:190} INFO - [2026-07-13T17:17:10.165-0400] {dag.py:4180} INFO - Setting next_dagrun for retail_data_pipeline to 2026-07-13 00:00:00+00:00, run_after=2026-07-14 00:00:00+00:00
+[2026-07-13T17:17:10.174-0400] {processor.py:208} INFO - Processing /Users/anitharaj/retail-data-engineering-platform/airflow/dags/retail_data_pipeline.py took 0.102 seconds
+[2026-07-13T17:17:41.647-0400] {processor.py:186} INFO - Started process (PID=84167) to work on /Users/anitharaj/retail-data-engineering-platform/airflow/dags/retail_data_pipeline.py
+[2026-07-13T17:17:41.651-0400] {processor.py:914} INFO - Processing file /Users/anitharaj/retail-data-engineering-platform/airflow/dags/retail_data_pipeline.py for tasks to queue
+[2026-07-13T17:17:41.651-0400] {logging_mixin.py:190} INFO - [2026-07-13T17:17:41.651-0400] {dagbag.py:588} INFO - Filling up the DagBag from /Users/anitharaj/retail-data-engineering-platform/airflow/dags/retail_data_pipeline.py
+[2026-07-13T17:17:41.660-0400] {processor.py:925} INFO - DAG(s) 'retail_data_pipeline' retrieved from /Users/anitharaj/retail-data-engineering-platform/airflow/dags/retail_data_pipeline.py
+[2026-07-13T17:17:41.728-0400] {logging_mixin.py:190} INFO - [2026-07-13T17:17:41.728-0400] {dag.py:3239} INFO - Sync 1 DAGs
+[2026-07-13T17:17:41.741-0400] {logging_mixin.py:190} INFO - [2026-07-13T17:17:41.741-0400] {dag.py:4180} INFO - Setting next_dagrun for retail_data_pipeline to 2026-07-13 00:00:00+00:00, run_after=2026-07-14 00:00:00+00:00
+[2026-07-13T17:17:41.750-0400] {processor.py:208} INFO - Processing /Users/anitharaj/retail-data-engineering-platform/airflow/dags/retail_data_pipeline.py took 0.105 seconds
+[2026-07-13T17:18:13.209-0400] {processor.py:186} INFO - Started process (PID=84174) to work on /Users/anitharaj/retail-data-engineering-platform/airflow/dags/retail_data_pipeline.py
+[2026-07-13T17:18:13.211-0400] {processor.py:914} INFO - Processing file /Users/anitharaj/retail-data-engineering-platform/airflow/dags/retail_data_pipeline.py for tasks to queue
+[2026-07-13T17:18:13.212-0400] {logging_mixin.py:190} INFO - [2026-07-13T17:18:13.212-0400] {dagbag.py:588} INFO - Filling up the DagBag from /Users/anitharaj/retail-data-engineering-platform/airflow/dags/retail_data_pipeline.py
+[2026-07-13T17:18:13.221-0400] {processor.py:925} INFO - DAG(s) 'retail_data_pipeline' retrieved from /Users/anitharaj/retail-data-engineering-platform/airflow/dags/retail_data_pipeline.py
+[2026-07-13T17:18:13.285-0400] {logging_mixin.py:190} INFO - [2026-07-13T17:18:13.285-0400] {dag.py:3239} INFO - Sync 1 DAGs
+[2026-07-13T17:18:13.296-0400] {logging_mixin.py:190} INFO - [2026-07-13T17:18:13.296-0400] {dag.py:4180} INFO - Setting next_dagrun for retail_data_pipeline to 2026-07-13 00:00:00+00:00, run_after=2026-07-14 00:00:00+00:00
+[2026-07-13T17:18:13.305-0400] {processor.py:208} INFO - Processing /Users/anitharaj/retail-data-engineering-platform/airflow/dags/retail_data_pipeline.py took 0.098 seconds
+[2026-07-13T17:18:25.803-0400] {processor.py:186} INFO - Started process (PID=84178) to work on /Users/anitharaj/retail-data-engineering-platform/airflow/dags/retail_data_pipeline.py
+[2026-07-13T17:18:25.807-0400] {processor.py:914} INFO - Processing file /Users/anitharaj/retail-data-engineering-platform/airflow/dags/retail_data_pipeline.py for tasks to queue
+[2026-07-13T17:18:25.807-0400] {logging_mixin.py:190} INFO - [2026-07-13T17:18:25.807-0400] {dagbag.py:588} INFO - Filling up the DagBag from /Users/anitharaj/retail-data-engineering-platform/airflow/dags/retail_data_pipeline.py
+[2026-07-13T17:18:25.817-0400] {processor.py:925} INFO - DAG(s) 'retail_data_pipeline' retrieved from /Users/anitharaj/retail-data-engineering-platform/airflow/dags/retail_data_pipeline.py
+[2026-07-13T17:18:25.950-0400] {logging_mixin.py:190} INFO - [2026-07-13T17:18:25.950-0400] {dag.py:3239} INFO - Sync 1 DAGs
+[2026-07-13T17:18:25.961-0400] {logging_mixin.py:190} INFO - [2026-07-13T17:18:25.961-0400] {dag.py:4180} INFO - Setting next_dagrun for retail_data_pipeline to 2026-07-13 00:00:00+00:00, run_after=2026-07-14 00:00:00+00:00
+[2026-07-13T17:18:25.971-0400] {processor.py:208} INFO - Processing /Users/anitharaj/retail-data-engineering-platform/airflow/dags/retail_data_pipeline.py took 0.171 seconds

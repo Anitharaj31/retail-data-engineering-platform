@@ -1,0 +1,16 @@
+[2026-07-13T16:11:43.443-0400] {processor.py:186} INFO - Started process (PID=61229) to work on /Users/anitharaj/retail-data-engineering-platform/venv/lib/python3.9/site-packages/airflow/example_dags/example_python_decorator.py
+[2026-07-13T16:11:43.446-0400] {processor.py:914} INFO - Processing file /Users/anitharaj/retail-data-engineering-platform/venv/lib/python3.9/site-packages/airflow/example_dags/example_python_decorator.py for tasks to queue
+[2026-07-13T16:11:43.447-0400] {logging_mixin.py:190} INFO - [2026-07-13T16:11:43.447-0400] {dagbag.py:588} INFO - Filling up the DagBag from /Users/anitharaj/retail-data-engineering-platform/venv/lib/python3.9/site-packages/airflow/example_dags/example_python_decorator.py
+[2026-07-13T16:11:43.473-0400] {logging_mixin.py:190} INFO - [2026-07-13T16:11:43.472-0400] {example_python_decorator.py:80} WARNING - The virtalenv_python example task requires virtualenv, please install it.
+[2026-07-13T16:11:43.474-0400] {processor.py:925} INFO - DAG(s) 'example_python_decorator' retrieved from /Users/anitharaj/retail-data-engineering-platform/venv/lib/python3.9/site-packages/airflow/example_dags/example_python_decorator.py
+[2026-07-13T16:11:43.589-0400] {logging_mixin.py:190} INFO - [2026-07-13T16:11:43.589-0400] {override.py:1911} INFO - Created Permission View: can delete on DAG:example_python_decorator
+[2026-07-13T16:11:43.594-0400] {logging_mixin.py:190} INFO - [2026-07-13T16:11:43.594-0400] {override.py:1911} INFO - Created Permission View: can read on DAG:example_python_decorator
+[2026-07-13T16:11:43.597-0400] {logging_mixin.py:190} INFO - [2026-07-13T16:11:43.597-0400] {override.py:1911} INFO - Created Permission View: can edit on DAG:example_python_decorator
+[2026-07-13T16:11:43.601-0400] {logging_mixin.py:190} INFO - [2026-07-13T16:11:43.601-0400] {override.py:1911} INFO - Created Permission View: can delete on DAG Run:example_python_decorator
+[2026-07-13T16:11:43.603-0400] {logging_mixin.py:190} INFO - [2026-07-13T16:11:43.603-0400] {override.py:1911} INFO - Created Permission View: can create on DAG Run:example_python_decorator
+[2026-07-13T16:11:43.606-0400] {logging_mixin.py:190} INFO - [2026-07-13T16:11:43.606-0400] {override.py:1911} INFO - Created Permission View: menu access on DAG Run:example_python_decorator
+[2026-07-13T16:11:43.609-0400] {logging_mixin.py:190} INFO - [2026-07-13T16:11:43.609-0400] {override.py:1911} INFO - Created Permission View: can read on DAG Run:example_python_decorator
+[2026-07-13T16:11:43.609-0400] {logging_mixin.py:190} INFO - [2026-07-13T16:11:43.609-0400] {dag.py:3239} INFO - Sync 1 DAGs
+[2026-07-13T16:11:43.616-0400] {logging_mixin.py:190} INFO - [2026-07-13T16:11:43.616-0400] {dag.py:3262} INFO - Creating ORM DAG for example_python_decorator
+[2026-07-13T16:11:43.616-0400] {logging_mixin.py:190} INFO - [2026-07-13T16:11:43.616-0400] {dag.py:4180} INFO - Setting next_dagrun for example_python_decorator to None, run_after=None
+[2026-07-13T16:11:43.625-0400] {processor.py:208} INFO - Processing /Users/anitharaj/retail-data-engineering-platform/venv/lib/python3.9/site-packages/airflow/example_dags/example_python_decorator.py took 0.184 seconds
