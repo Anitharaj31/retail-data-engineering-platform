@@ -83,8 +83,9 @@ Processed data is organized using the **Medallion Architecture**:
 | Data Processing | Apache Spark (PySpark) |
 | Workflow Orchestration | Apache Airflow |
 | Data Visualization | Tableau |
-| Version Control | Git & GitHub |
 | Containerization | Docker |
+| Version Control | Git & GitHub |
+| Development Environment | VS Code |
 
 ## 5. Data Engineering Pipeline
 
@@ -112,13 +113,17 @@ Gold Layer
 MySQL Data Warehouse
         |
         ▼
+Apache Airflow
+        |
+        ▼
 Tableau Dashboard
+
+The pipeline demonstrates data ingestion, real-time streaming, data transformation, storage, workflow orchestration, and business intelligence reporting.
 ```
-
-The pipeline demonstrates data ingestion, streaming, transformation, storage, workflow orchestration, and analytics reporting.
-
 ---
 ## 6. Database Design
+
+The analytical data is stored in a MySQL data warehouse.
 
 **Database:** `retail_db`
 
@@ -136,9 +141,14 @@ The pipeline demonstrates data ingestion, streaming, transformation, storage, wo
 | payment_method | Payment method |
 | store_location | Store location |
 | timestamp | Transaction timestamp |
+
 ---
 
 ## 7. Tableau Dashboard
+
+The final analytics layer provides business insights through interactive Tableau dashboards connected to the MySQL data warehouse.
+
+### Dashboard Preview
 
 ![Retail Sales Analytics Dashboard](dashboards/screenshots/Retail%20Sales%20Analytics%20Dashboard.png)
 ### Dashboard Components
@@ -211,14 +221,11 @@ python src/transformation/gold_layer.py
 
 ### Run Airflow Pipeline
 
-
-with:
-
-```markdown
 Start Airflow webserver:
 
 ```bash
 airflow webserver --port 8080
+```
 
 Start scheduler in another terminal:
 
