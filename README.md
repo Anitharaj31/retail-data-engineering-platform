@@ -21,6 +21,7 @@ This project simulates a retail analytics platform that:
 ---
 
 # Architecture
+
              Retail Transactions
                      |
                      ↓
