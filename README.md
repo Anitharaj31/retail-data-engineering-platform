@@ -146,7 +146,7 @@ Table columns:
 
 The final analytics layer provides business insights through interactive dashboards.
 
-## Dashboard Preview
+## 5. Dashboard Preview
 
 ![Retail Sales Analytics Dashboard](dashboards/screenshots/Retail%20Sales%20Analytics%20Dashboard.png)
 ### Dashboard Components
@@ -163,16 +163,16 @@ The final analytics layer provides business insights through interactive dashboa
 
 ![Sales Trend Over Time](dashboards/screenshots/Sales%20Trend%20Over%20TIme.png)
 
-## Dashboard Insights
+## 6. Dashboard Insights
 
 - Revenue performance analysis
 - Product category analysis
 - Sales trend analysis
 
 ---
-# How to Run the Project
+## 7. How to Run the Project
 
-## 1. Clone Repository
+##  Clone Repository
 
 ```bash
 git clone https://github.com/Anitharaj31/retail-data-engineering-platform.git
@@ -221,7 +221,7 @@ git commit -m "Add project run instructions"
 git push
 
 
-# Project Structure
+## 8. Project Structure
 retail-data-engineering-platform
 
 ├── airflow
@@ -256,28 +256,22 @@ retail-data-engineering-platform
 └── README.md
 ---
 
-# How to Run the Project
+## 9. Future Enhancements:
 
-## Clone Repository
+- Deploy the data pipeline on AWS Cloud
+- Store raw and processed data using Amazon S3
+- Use AWS Glue for serverless ETL processing
+- Use Amazon Athena for querying data lake datasets
+- Implement real-time monitoring and alerting
+- Add data quality validation frameworks
+- Add CI/CD pipeline using GitHub Actions
+- Implement automated testing for data pipelines
+- Add data governance and metadata management
+- Scale Kafka and Spark processing for larger datasets
 
-```bash
-git clone https://github.com/Anitharaj31/retail-data-engineering-platform.git
 
-Create Environment
-python3 -m venv venv
+## 10. Key Skills Demonstrated:
 
-source venv/bin/activate
-Install Dependencies
-pip install -r requirements.txt
-Start Services
-
-Docker:
-docker compose up -d
-
-Run Airflow:
-airflow webserver
-airflow scheduler
-Key Skills Demonstrated
 Data Engineering Pipelines
 ETL Development
 Streaming Data Processing
@@ -285,15 +279,15 @@ Data Warehousing
 Data Modeling
 Workflow Orchestration
 Business Intelligence Analytics
+Python Development
+SQL Development
+Apache Kafka
+Apache Spark
+Apache Airflow
+Tableau Dashboard Development
+Git & GitHub
 
-Future Enhancements
-Deploy pipeline on AWS
-Add AWS S3 data lake
-Add AWS Glue ETL jobs
-Add Amazon Athena analytics
-Implement CI/CD pipeline
-Add monitoring with Grafana
 
-Author
+## 11. Author
 
 Anitha Raj Bale
