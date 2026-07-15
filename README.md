@@ -6,7 +6,7 @@ The project demonstrates a modern data engineering workflow from data ingestion 
 
 ---
 
-## Project Overview
+## 1. Project Overview
 
 This project simulates a retail analytics platform that:
 
@@ -20,133 +20,125 @@ This project simulates a retail analytics platform that:
 
 ---
 
-# Architecture
+## 2. Architecture
 
 The following diagram represents the end-to-end retail data engineering pipeline:
 
 ![Retail Data Architecture](Images/retail_data_architecture.png)
                
 ---
-# Technology Stack
-
-## Programming
-- Python
-- SQL
-
-## Data Engineering
-- Apache Kafka
-- Apache Spark
-- Apache Airflow
-- Docker
-
-## Database
-- MySQL
-
-## Analytics & Visualization
-- Tableau
-
-## Development Tools
-- Git
-- GitHub
-- VS Code
-
----
-
-# Data Pipeline
-
-## 1. Data Generation
-
-Synthetic retail transaction data is generated using Python.
-
-Sample attributes:
-
-- Transaction ID
-- Customer ID
-- Product ID
-- Product Category
-- Amount
-- Payment Method
-- Store Location
-- Timestamp
-
----
-
-## 2. Data Streaming
-
-Apache Kafka is used for real-time transaction ingestion.
-
-Flow:
-Python Producer
-|
-↓
-Kafka Topic
-|
-↓
-Spark Consumer
-
-
----
-
 ## 3. Data Processing
 
-Apache Spark performs:
+The data processing pipeline follows a structured ETL workflow to transform raw retail transactions into analytics-ready datasets.
+
+### Data Flow
+
+#### 1. Data Generation
+
+- Python-based data generator creates retail transaction records.
+- Generates customer, product, transaction, and sales information.
+- Stores raw transaction data in CSV format.
+
+#### 2. Data Ingestion
+
+- Apache Kafka is used for real-time transaction streaming.
+- Producers send transaction events into Kafka topics.
+
+#### 3. Data Transformation
+
+Apache Spark processes incoming transaction data and performs:
 
 - Data cleaning
-- Schema validation
-- Transformation
+- Data validation
+- Data transformation
 - Aggregations
 
-Data is organized into:
+#### 4. Data Storage
 
-### Bronze Layer
-Raw ingested data
+Processed data is organized using the **Medallion Architecture**:
 
-### Silver Layer
-Cleaned and transformed data
+**Bronze Layer**
+- Stores raw ingested data.
 
-### Gold Layer
-Business-ready analytical datasets
+**Silver Layer**
+- Stores cleaned and transformed data.
 
----
+**Gold Layer**
+- Stores business-ready analytical datasets.
 
-## 4. Workflow Orchestration
+#### 5. Analytics
 
-Apache Airflow manages pipeline execution.
-
-Pipeline tasks:
-Generate Data
-↓
-Transform Data
-↓
-Load Analytics Data
+- MySQL Data Warehouse stores analytical tables.
+- Tableau connects to the warehouse to create business dashboards.
 
 ---
 
-# Database Design
+## 4. Technology Stack
 
-MySQL database:
-retail_db
-|
-└── sales_transactions
+| Category | Technologies |
+|----------|--------------|
+| Programming Language | Python |
+| Database | MySQL |
+| Streaming | Apache Kafka |
+| Data Processing | Apache Spark (PySpark) |
+| Workflow Orchestration | Apache Airflow |
+| Data Visualization | Tableau |
+| Version Control | Git & GitHub |
+| Containerization | Docker |
 
-Table columns:
+## 5. Data Engineering Pipeline
+
+The project follows an end-to-end retail data engineering workflow:
+
+```text
+Python Data Generator
+        |
+        ▼
+Apache Kafka
+        |
+        ▼
+Apache Spark
+        |
+        ▼
+Bronze Layer
+        |
+        ▼
+Silver Layer
+        |
+        ▼
+Gold Layer
+        |
+        ▼
+MySQL Data Warehouse
+        |
+        ▼
+Tableau Dashboard
+```
+
+The pipeline demonstrates data ingestion, streaming, transformation, storage, workflow orchestration, and analytics reporting.
+
+---
+## 6. Database Design
+
+**Database:** `retail_db`
+
+**Table:** `sales_transactions`
 
 | Column | Description |
 |---|---|
-| transaction_id | Transaction identifier |
+| transaction_id | Unique transaction identifier |
 | customer_id | Customer identifier |
 | product_id | Product identifier |
-| amount | Sales amount |
+| product_category | Product category |
+| quantity | Quantity purchased |
+| price | Unit price |
+| total_amount | Total transaction amount |
+| payment_method | Payment method |
+| store_location | Store location |
 | timestamp | Transaction timestamp |
-| transaction_time | Processed datetime |
-| revenue_category | Revenue classification |
-
 ---
-# Tableau Dashboard
 
-The final analytics layer provides business insights through interactive dashboards.
-
-## 5. Dashboard Preview
+## 7. Tableau Dashboard
 
 ![Retail Sales Analytics Dashboard](dashboards/screenshots/Retail%20Sales%20Analytics%20Dashboard.png)
 ### Dashboard Components
@@ -162,19 +154,16 @@ The final analytics layer provides business insights through interactive dashboa
 #### Sales Trend Over Time
 
 ![Sales Trend Over Time](dashboards/screenshots/Sales%20Trend%20Over%20TIme.png)
-
-## 6. Dashboard Insights
+### Dashboard Insights
 
 - Revenue performance analysis
 - Product category analysis
 - Sales trend analysis
 
 ---
+## 8. How to Run the Project
 
----
-## 7. How to Run the Project
-
-## Clone Repository
+### Clone Repository
 
 ```bash
 git clone https://github.com/Anitharaj31/retail-data-engineering-platform.git
@@ -182,7 +171,7 @@ git clone https://github.com/Anitharaj31/retail-data-engineering-platform.git
 cd retail-data-engineering-platform
 ```
 
-## Create Virtual Environment
+### Create Virtual Environment
 
 ```bash
 python3 -m venv venv
@@ -190,34 +179,53 @@ python3 -m venv venv
 source venv/bin/activate
 ```
 
-## Install Dependencies
+### Install Dependencies
 
 ```bash
 pip install -r requirements.txt
 ```
 
-## Start Docker Services
+### Start Docker Services
+
+Start Kafka and required services:
 
 ```bash
 docker compose up -d
 ```
 
-## Run Airflow
+### Generate Retail Transaction Data
 
+Run the data generator:
+
+```bash
+python src/data_generator.py
+```
+
+### Run Data Transformation Pipeline
+
+Run Spark transformation:
+
+```bash
+python src/transformation/gold_layer.py
+```
+
+### Run Airflow Pipeline
+
+
+with:
+
+```markdown
 Start Airflow webserver:
 
 ```bash
-airflow webserver
+airflow webserver --port 8080
 ```
 
-Start scheduler in another terminal:
-
-```bash
-airflow scheduler
-```
+The Airflow DAG orchestrates the retail data pipeline workflow.
 
 ---
-## 8. Project Structure
+
+## 9. Project Structure
 
 ```text
 retail-data-engineering-platform
@@ -240,9 +248,6 @@ retail-data-engineering-platform
 ├── kafka
 │   └── producer scripts
 │
-├── spark
-│   └── Spark processing
-│
 ├── sql
 │   └── SQL scripts
 │
@@ -257,7 +262,7 @@ retail-data-engineering-platform
 ```
 ---
 
-## 9. Future Enhancements
+## 10. Future Enhancements
 
 - Deploy the data pipeline on AWS Cloud
 - Store raw and processed data using Amazon S3
@@ -269,7 +274,7 @@ retail-data-engineering-platform
 
 ---
 
-## 10. Key Skills Demonstrated
+## 11. Key Skills Demonstrated
 
 - Data Engineering Pipelines
 - ETL Development
@@ -288,9 +293,14 @@ retail-data-engineering-platform
 
 ---
 
-## 11. Author
+## 12. Author
 
 **Anitha Raj Bale**
+
+Aspiring Data Engineer
+
+* GitHub: https://github.com/Anitharaj31
+* LinkedIn: https://www.linkedin.com/in/anitha-raj-bale-a8ba3117b/
 
 
 
