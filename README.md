@@ -219,6 +219,11 @@ Start Airflow webserver:
 
 ```bash
 airflow webserver --port 8080
+
+Start scheduler in another terminal:
+
+```bash
+airflow scheduler
 ```
 
 The Airflow DAG orchestrates the retail data pipeline workflow.
