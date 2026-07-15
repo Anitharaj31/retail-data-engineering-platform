@@ -172,7 +172,7 @@ The final analytics layer provides business insights through interactive dashboa
 ---
 
 ---
-# How to Run the Project
+## 7. How to Run the Project
 
 ## Clone Repository
 
