@@ -172,12 +172,19 @@ The final analytics layer provides business insights through interactive dashboa
 ## Dashboard Preview
 
 ![Retail Sales Analytics Dashboard](dashboards/screenshots/Retail%20Sales%20Analytics%20Dashboard.png)
+### Dashboard Components
 
-## Dashboard Features
+#### Total Revenue KPI
 
-- Total Revenue KPI
-- Revenue by Product Category
-- Sales Trend Over Time
+![Total Revenue](dashboards/screenshots/Total%20Revenue.png)
+
+#### Revenue by Product Category
+
+![Revenue by Product Category](dashboards/screenshots/Revenue%20by%20Product%20Category.png)
+
+#### Sales Trend Over Time
+
+![Sales Trend Over Time](dashboards/screenshots/Sales%20Trend%20Over%20TIme.png)
 
 ## Dashboard Insights
 
