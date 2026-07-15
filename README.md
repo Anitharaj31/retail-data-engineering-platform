@@ -172,93 +172,92 @@ The final analytics layer provides business insights through interactive dashboa
 ---
 
 ---
-## 7. How to Run the Project
-##  Clone Repository
-```bash
+# How to Run the Project
 
+## Clone Repository
+
+```bash
 git clone https://github.com/Anitharaj31/retail-data-engineering-platform.git
 
 cd retail-data-engineering-platform
-Create Virtual Environment
-python3 -m venv venv
-source venv/bin/activate
+```
 
-Install Dependencies
-pip install -r requirements.txt
-
-Start Docker Services
-Start Kafka and required services:
-docker compose up -d
-
-Generate Retail Transaction Data
-Run the data generator:
-python src/data_generator.py
-
-Run Data Transformation Pipeline
-Run Spark transformation:
-python src/transformation/gold_layer.py
-
-Run Airflow Pipeline
-Start Airflow webserver:
-airflow webserver
-
-Start scheduler in another terminal:
-airflow scheduler
-
-Trigger the DAG:
-retail_data_pipeline
-
-View Tableau Dashboard
-Open the Tableau workbook from:
-dashboards/
-
-Connect Tableau to the MySQL Data Warehouse to view analytics.
-
-Then save and push:
+## Create Virtual Environment
 
 ```bash
-git add README.md
-git commit -m "Add project run instructions"
-git push
+python3 -m venv venv
 
+source venv/bin/activate
 ```
+
+## Install Dependencies
+
+```bash
+pip install -r requirements.txt
 ```
+
+## Start Docker Services
+
+```bash
+docker compose up -d
+```
+
+## Run Airflow
+
+Start Airflow webserver:
+
+```bash
+airflow webserver
+```
+
+Start scheduler in another terminal:
+
+```bash
+airflow scheduler
+```
+
+---
 ## 8. Project Structure
+
+```text
 retail-data-engineering-platform
 
 ├── airflow
-│ └── dags
-
+│   └── dags
+│       └── retail_data_pipeline.py
+│
 ├── dashboards
-│ └── Tableau dashboards
-
+│   └── Tableau dashboards
+│
 ├── data
-│ ├── raw
-│ ├── silver
-│ └── gold
-
+│   ├── raw
+│   ├── silver
+│   └── gold
+│
 ├── docker
-│ └── Kafka containers
+│   └── Kafka containers
+│
 ├── kafka
-│ └── producer scripts
-
+│   └── producer scripts
+│
 ├── spark
-│ └── Spark processing
-
+│   └── Spark processing
+│
 ├── sql
-│ └── SQL scripts
-
+│   └── SQL scripts
+│
 ├── src
-│ ├── ingestion
-│ └── transformation
-
+│   ├── ingestion
+│   └── transformation
+│
 ├── tests
-
+│
 ├── requirements.txt
 └── README.md
 ```
-```
-## 9. Future Enhancements:
+---
+
+## 9. Future Enhancements
 
 - Deploy the data pipeline on AWS Cloud
 - Store raw and processed data using Amazon S3
@@ -267,30 +266,31 @@ retail-data-engineering-platform
 - Implement real-time monitoring and alerting
 - Add data quality validation frameworks
 - Add CI/CD pipeline using GitHub Actions
-- Implement automated testing for data pipelines
-- Add data governance and metadata management
-- Scale Kafka and Spark processing for larger datasets
-```
-```
-## 10. Key Skills Demonstrated:
 
-Data Engineering Pipelines
-ETL Development
-Streaming Data Processing
-Data Warehousing
-Data Modeling
-Workflow Orchestration
-Business Intelligence Analytics
-Python Development
-SQL Development
-Apache Kafka
-Apache Spark
-Apache Airflow
-Tableau Dashboard Development
-Git & GitHub
-```
-```
+---
+
+## 10. Key Skills Demonstrated
+
+- Data Engineering Pipelines
+- ETL Development
+- Streaming Data Processing
+- Data Warehousing
+- Data Modeling
+- Workflow Orchestration
+- Business Intelligence Analytics
+- Python Development
+- SQL Development
+- Apache Kafka
+- Apache Spark
+- Apache Airflow
+- Tableau Dashboard Development
+- Git & GitHub
+
+---
+
 ## 11. Author
 
-Anitha Raj Bale
-```
+**Anitha Raj Bale**
+
+
+
