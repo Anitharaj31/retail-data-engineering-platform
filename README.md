@@ -22,34 +22,11 @@ This project simulates a retail analytics platform that:
 
 # Architecture
 
-```text
-                 Retail Transactions
-                         |
-                         ↓
-              Python Data Generator
-                         |
-                         ↓
-                    Apache Kafka
-                         |
-                         ↓
-             Apache Spark Processing
-                         |
-        ---------------------------------
-        |               |               |
-        ↓               ↓               ↓
-     Bronze          Silver           Gold
-      Layer           Layer            Layer
-        |               |               |
-        ---------------------------------
-                         |
-                         ↓
-              MySQL Data Warehouse
-                         |
-                         ↓
-           Tableau Analytics Dashboard
-```
-               
+The following diagram represents the end-to-end retail data engineering pipeline:
 
+![Retail Data Architecture](images/retail_data_architecture.png)
+               
+---
 # Technology Stack
 
 ## Programming
