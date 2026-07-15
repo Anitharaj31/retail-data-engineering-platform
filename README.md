@@ -170,11 +170,12 @@ The final analytics layer provides business insights through interactive dashboa
 - Sales trend analysis
 
 ---
-## 7. How to Run the Project
 
+---
+## 7. How to Run the Project
 ##  Clone Repository
 
-```bash
+
 git clone https://github.com/Anitharaj31/retail-data-engineering-platform.git
 
 cd retail-data-engineering-platform
@@ -220,7 +221,8 @@ git add README.md
 git commit -m "Add project run instructions"
 git push
 
-
+---
+---
 ## 8. Project Structure
 retail-data-engineering-platform
 
@@ -255,7 +257,7 @@ retail-data-engineering-platform
 ├── requirements.txt
 └── README.md
 ---
-
+---
 ## 9. Future Enhancements:
 
 - Deploy the data pipeline on AWS Cloud
@@ -268,8 +270,8 @@ retail-data-engineering-platform
 - Implement automated testing for data pipelines
 - Add data governance and metadata management
 - Scale Kafka and Spark processing for larger datasets
-
-
+---
+---
 ## 10. Key Skills Demonstrated:
 
 Data Engineering Pipelines
@@ -286,8 +288,9 @@ Apache Spark
 Apache Airflow
 Tableau Dashboard Development
 Git & GitHub
-
-
+---
+---
 ## 11. Author
 
 Anitha Raj Bale
+---
