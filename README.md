@@ -165,27 +165,27 @@ Table columns:
 | revenue_category | Revenue classification |
 
 ---
-
 # Tableau Dashboard
 
-The final analytics layer provides:
+The final analytics layer provides business insights through interactive dashboards.
 
-## Retail Sales Analytics Dashboard
+## Dashboard Preview
 
-Features:
+![Retail Sales Analytics Dashboard](dashboards/screenshots/Retail%20Sales%20Analytics%20Dashboard.png)
+
+## Dashboard Features
 
 - Total Revenue KPI
 - Revenue by Product Category
 - Sales Trend Over Time
 
-Dashboard insights:
+## Dashboard Insights
 
-- Revenue performance
+- Revenue performance analysis
 - Product category analysis
-- Sales patterns
+- Sales trend analysis
 
 ---
-
 # Project Structure
 retail-data-engineering-platform
 
