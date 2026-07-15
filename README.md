@@ -170,6 +170,57 @@ The final analytics layer provides business insights through interactive dashboa
 - Sales trend analysis
 
 ---
+# How to Run the Project
+
+## 1. Clone Repository
+
+```bash
+git clone https://github.com/Anitharaj31/retail-data-engineering-platform.git
+
+cd retail-data-engineering-platform
+Create Virtual Environment
+python3 -m venv venv
+source venv/bin/activate
+
+Install Dependencies
+pip install -r requirements.txt
+
+Start Docker Services
+Start Kafka and required services:
+docker compose up -d
+
+Generate Retail Transaction Data
+Run the data generator:
+python src/data_generator.py
+
+Run Data Transformation Pipeline
+Run Spark transformation:
+python src/transformation/gold_layer.py
+
+Run Airflow Pipeline
+Start Airflow webserver:
+airflow webserver
+
+Start scheduler in another terminal:
+airflow scheduler
+
+Trigger the DAG:
+retail_data_pipeline
+
+View Tableau Dashboard
+Open the Tableau workbook from:
+dashboards/
+
+Connect Tableau to the MySQL Data Warehouse to view analytics.
+
+Then save and push:
+
+```bash
+git add README.md
+git commit -m "Add project run instructions"
+git push
+
+
 # Project Structure
 retail-data-engineering-platform
 
