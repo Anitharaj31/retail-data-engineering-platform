@@ -26,7 +26,25 @@ The following diagram represents the end-to-end retail data engineering pipeline
 ![Retail Data Architecture](Images/retail_data_architecture_v2.png)
                
 ---
-## 3. Data Processing
+## 3. Airflow Pipeline Orchestration
+
+Apache Airflow orchestrates the complete retail data engineering workflow by executing each stage of the pipeline in sequence.
+
+The DAG automates the following tasks:
+
+- Generate retail transaction data
+- Publish transactions to Apache Kafka
+- Process streaming data using Apache Spark
+- Build Silver layer datasets
+- Generate Gold layer analytical datasets
+
+The following Airflow DAG shows a successful end-to-end pipeline execution:
+
+![Airflow DAG Execution](Images/airflow_dag_execution.png)
+
+---
+
+## 4. Data Processing
 
 The data processing pipeline follows a structured ETL workflow to transform raw retail transactions into analytics-ready datasets.
 
@@ -72,7 +90,7 @@ Processed data is organized using the **Medallion Architecture**:
 
 ---
 
-## 4. Technology Stack
+## 5. Technology Stack
 
 | Category | Technologies |
 |----------|--------------|
@@ -86,41 +104,41 @@ Processed data is organized using the **Medallion Architecture**:
 | Version Control | Git & GitHub |
 | Development Environment | VS Code |
 
-## 5. Data Engineering Pipeline
+## 6. Data Engineering Pipeline
 
 The project follows an end-to-end retail data engineering workflow:
 
 ```text
+Apache Airflow
+        │
+        ▼
 Python Data Generator
-        |
+        │
         ▼
 Apache Kafka
-        |
+        │
         ▼
 Apache Spark
-        |
+        │
         ▼
 Bronze Layer
-        |
+        │
         ▼
 Silver Layer
-        |
+        │
         ▼
 Gold Layer
-        |
+        │
         ▼
 MySQL Data Warehouse
-        |
-        ▼
-Apache Airflow
-        |
+        │
         ▼
 Tableau Dashboard
 
 The pipeline demonstrates data ingestion, real-time streaming, data transformation, storage, workflow orchestration, and business intelligence reporting.
 ```
 ---
-## 6. Database Design
+## 7. Database Design
 
 The analytical data is stored in a MySQL data warehouse.
 
@@ -143,7 +161,7 @@ The analytical data is stored in a MySQL data warehouse.
 
 ---
 
-## 7. Tableau Dashboard
+## 8. Tableau Dashboard
 
 The final analytics layer provides business insights through interactive Tableau dashboards connected to the MySQL data warehouse.
 
@@ -170,7 +188,7 @@ The final analytics layer provides business insights through interactive Tableau
 - Sales trend analysis
 
 ---
-## 8. How to Run the Project
+## 9. How to Run the Project
 
 ### Clone Repository
 
@@ -236,7 +254,7 @@ The Airflow DAG orchestrates the retail data pipeline workflow.
 
 ---
 
-## 9. Project Structure
+## 10. Project Structure
 
 ```text
 retail-data-engineering-platform
@@ -273,7 +291,7 @@ retail-data-engineering-platform
 ```
 ---
 
-## 10. Future Enhancements
+## 11. Future Enhancements
 
 - Deploy the data pipeline on AWS Cloud
 - Store raw and processed data using Amazon S3
@@ -285,7 +303,7 @@ retail-data-engineering-platform
 
 ---
 
-## 11. Key Skills Demonstrated
+## 12. Key Skills Demonstrated
 
 - Data Engineering Pipelines
 - ETL Development
@@ -304,7 +322,7 @@ retail-data-engineering-platform
 
 ---
 
-## 12. Author
+## 13. Author
 
 **Anitha Raj Bale**
 

@@ -173,9 +173,8 @@ processed_df = sales_df \
 output_path = (
     "/Users/anitharaj/"
     "retail-data-engineering-platform/"
-    "data/silver/	transactions"
+    "data/silver/transactions"
 )
-
 
 checkpoint_path = (
     "/Users/anitharaj/"
