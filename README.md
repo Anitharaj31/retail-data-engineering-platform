@@ -23,8 +23,7 @@ This project simulates a retail analytics platform that:
 ## 2. Architecture
 
 The following diagram represents the end-to-end retail data engineering pipeline:
-
-![Retail Data Architecture](Images/retail_data_architecture.png)
+![Retail Data Architecture](Images/retail_data_architecture_v2.png)
                
 ---
 ## 3. Data Processing
